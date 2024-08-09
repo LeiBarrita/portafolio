@@ -1,4 +1,4 @@
-import styles from "../styles/portafolio.module.css";
+import styles from "./portafolio.module.css";
 
 export default function Portafolio() {
   return (
