@@ -1,7 +1,13 @@
+.separation {
+  display: flex;
+  gap: 40px;
+}
+
 .header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-  }
+  color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;  
+  text-align: center;
+  font-size: 16px;
+  padding: 30px;
+}
