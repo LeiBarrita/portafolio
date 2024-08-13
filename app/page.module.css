@@ -1,3 +1,18 @@
-.main {
-  color: var(--accent-color);
+.container {
+  max-width: 970px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--fixed-gap);
+  margin: var(--fixed-margin) 0;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fixed-gap);
+}
+
+.image {
+  border-radius: 50%;
 }

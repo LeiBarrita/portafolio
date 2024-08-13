@@ -1,6 +1,6 @@
 .separation {
   display: flex;
-  gap: 40px;
+  gap: var(--fixed-gap);
 }
 
 .header {

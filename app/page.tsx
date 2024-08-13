@@ -1,11 +1,18 @@
+import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div>
-        <p>Photo</p>
-        <div>
+    <main>
+      <div className={styles.container}>
+        <Image
+          className={styles.image}
+          src="/profile.png"
+          width={400}
+          height={400}
+          alt="My picture"
+        />
+        <div className={styles.titles}>
           <h1>PEDRO UZIEL BARRITA LICEA</h1>
           <h3>SOFTWARE ENGINEER</h3>
         </div>
