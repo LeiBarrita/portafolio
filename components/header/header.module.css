@@ -5,9 +5,11 @@
 
 .header {
   color: var(--accent-color);
+  position: absolute;
+  width: calc(100% - 2 * var(--fixed-padding));
+  padding: var(--fixed-padding);
   display: flex;
   justify-content: space-between;  
   text-align: center;
   font-size: 16px;
-  padding: 30px;
 }
