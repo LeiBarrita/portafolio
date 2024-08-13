@@ -1,24 +1,28 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import profileImg from "../public/profile.png";
 
 export default function Home() {
   return (
     <main>
-      <div className={styles.container}>
+      <div className={styles.profileContainer}>
         <Image
           className={styles.image}
-          src="/profile.png"
-          width={400}
-          height={400}
+          objectFit="cover"
+          src={profileImg}
           alt="My picture"
         />
-        <div className={styles.titles}>
-          <h1>PEDRO UZIEL BARRITA LICEA</h1>
+        <div className={styles.infoContainer}>
+          {/* <h1>PEDRO UZIEL BARRITA LICEA</h1> */}
+          <div>
+            <h1>MRHTY SOISA</h1>
+            <h1>PSLOISE AIÑVU</h1>
+          </div>
           <h3>SOFTWARE ENGINEER</h3>
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <h2>ABOUT ME</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae
@@ -49,7 +53,7 @@ export default function Home() {
         <div>
           <p>Timeline</p>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
