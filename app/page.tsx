@@ -13,10 +13,9 @@ export default function Home() {
           alt="My picture"
         />
         <div className={styles.infoContainer}>
-          {/* <h1>PEDRO UZIEL BARRITA LICEA</h1> */}
           <div>
-            <h1>MRHTY SOISA</h1>
-            <h1>PSLOISE AIÑVU</h1>
+            <h1>PEDRO UZIEL</h1>
+            <h1>BARRITA LICEA</h1>
           </div>
           <h3>SOFTWARE ENGINEER</h3>
         </div>
