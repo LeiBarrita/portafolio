@@ -21,13 +21,13 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div>
+      <div className={`secondary-section ${styles.section}`}>
         <h2>ABOUT ME</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae
-          earum, molestiae tempora assumenda quod maxime magni doloribus nam,
-          veniam porro eius explicabo molestias! Inventore numquam excepturi
-          earum omnis dolorem!
+        <p className={styles.text}>
+          Graduated in computer systems with 5 years of programming experience
+          and 3 focused on software and web development. I’m a really curious
+          person, and I love to learn about everything. I´m always searching for
+          a challenge and exploring new technologies
         </p>
       </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
         <div>
           <p>Timeline</p>
         </div>
-      </div> */}
+      </div>
     </main>
   );
 }

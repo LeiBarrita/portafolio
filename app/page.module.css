@@ -1,5 +1,5 @@
 .profileContainer {
-  max-width: 970px;
+  max-width: var(--section-max-w);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -17,6 +17,19 @@
   border-radius: 50%;
   width: 400px;
   height: 400px;
+}
+
+.section {
+  max-width: var(--section-max-w);
+  padding: calc(2 * var(--padding-lg));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--gap-lg);
+}
+
+.text {
+  line-height: 2rem;
 }
 
 @media (max-width: 1280px) {
@@ -37,6 +50,10 @@
   .image {
       width: 200px;
       height: 200px;
+  }
+
+  .section {
+    padding: calc(2 * var(--padding-md));
   }
 }
 
