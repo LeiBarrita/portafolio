@@ -4,6 +4,7 @@ import profileImg from "../public/profile.png";
 import { ListOfSkills, ListOfSkillTypes } from "@/types";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
+import Tag from "@/components/tag/Tag";
 
 export default function Home() {
   const skillTypes = skillTypesJson as ListOfSkillTypes;
@@ -37,12 +38,12 @@ export default function Home() {
         </p>
       </div>
 
-      <div>
+      <div className={styles.section}>
         <h1>SKILLS</h1>
-        <div>
-          <h4>All</h4>
+        <div className={styles.tags}>
+          <Tag type="All" />
           {skillTypes.map((tag) => (
-            <h4 key={tag.id}>{tag.type}</h4>
+            <Tag key={tag.id} type={tag.type} />
           ))}
         </div>
         <div>
@@ -52,8 +53,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <h1>EXPERIENCE</h1>
+      <div className={`secondary-section ${styles.section}`}>
+        <h2>EXPERIENCE</h2>
         <div>
           <p>Timeline</p>
         </div>
