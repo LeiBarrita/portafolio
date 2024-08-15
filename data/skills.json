@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Javascript",
+        "skillTypeId": 1
+    },
+    {
+        "id": 2,
+        "name": "Typescript",
+        "skillTypeId": 1
+    },
+    {
+        "id": 3,
+        "name": "HTML",
+        "skillTypeId": 1
+    },
+    {
+        "id": 4,
+        "name": "CSS",
+        "skillTypeId": 1
+    },
+    {
+        "id": 5,
+        "name": "Tailwind",
+        "skillTypeId": 1
+    },
+    {
+        "id": 6,
+        "name": "Bootstrap",
+        "skillTypeId": 1
+    },
+    {
+        "id": 7,
+        "name": "React",
+        "skillTypeId": 1
+    },
+    {
+        "id": 8,
+        "name": "Next JS",
+        "skillTypeId": 1
+    },
+    {
+        "id": 20,
+        "name": ".NET",
+        "skillTypeId": 2
+    },
+    {
+        "id": 21,
+        "name": "Django",
+        "skillTypeId": 2
+    },
+    {
+        "id": 22,
+        "name": "Laravel",
+        "skillTypeId": 2
+    },
+    {
+        "id": 23,
+        "name": "Python",
+        "skillTypeId": 2
+    },
+    {
+        "id": 24,
+        "name": "PHP",
+        "skillTypeId": 2
+    },
+    {
+        "id": 25,
+        "name": "Node JS",
+        "skillTypeId": 2
+    },
+    {
+        "id": 40,
+        "name": "Mysql",
+        "skillTypeId": 3
+    },
+    {
+        "id": 41,
+        "name": "Posgresql",
+        "skillTypeId": 3
+    },
+    {
+        "id": 42,
+        "name": "SQL Server",
+        "skillTypeId": 3
+    },
+    {
+        "id": 43,
+        "name": "MongoDB",
+        "skillTypeId": 3
+    },
+    {
+        "id": 60,
+        "name": "AWS",
+        "skillTypeId": 4
+    },
+    {
+        "id": 61,
+        "name": "Docker",
+        "skillTypeId": 4
+    }
+]

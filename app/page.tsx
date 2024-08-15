@@ -1,8 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import profileImg from "../public/profile.png";
+import { ListOfSkills, ListOfSkillTypes } from "@/types";
+import skillTypesJson from "../data/skillsCatalog.json";
+import skillsJson from "../data/skills.json";
 
 export default function Home() {
+  const skillTypes = skillTypesJson as ListOfSkillTypes;
+  const skills = skillsJson as ListOfSkills;
+
   return (
     <main>
       <div className={styles.profileContainer}>
@@ -35,15 +41,14 @@ export default function Home() {
         <h1>SKILLS</h1>
         <div>
           <h4>All</h4>
-          <h4>Frontend</h4>
-          <h4>Backend</h4>
-          <h4>Database</h4>
-          <h4>Deployment</h4>
+          {skillTypes.map((tag) => (
+            <h4 key={tag.id}>{tag.type}</h4>
+          ))}
         </div>
         <div>
-          <p>cubitos</p>
-          <p>cubitos</p>
-          <p>cubitos</p>
+          {skills.map((skill) => (
+            <p key={skill.id}>{skill.name}</p>
+          ))}
         </div>
       </div>
 
