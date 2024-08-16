@@ -25,16 +25,17 @@
     },
     {
         "id": 5,
-        "name": "Tailwind",
-        "icon": "icons/tailwind.png",
-        "skillTypeId": 1
-    },
-    {
-        "id": 6,
         "name": "Bootstrap",
         "icon": "icons/bootstrap.png",
         "skillTypeId": 1
     },
+    {
+        "id": 6,
+        "name": "Tailwind",
+        "icon": "icons/tailwind.png",
+        "skillTypeId": 1
+    },
+    
     {
         "id": 7,
         "name": "React",
@@ -49,26 +50,26 @@
     },
     {
         "id": 20,
+        "name": "Node JS",
+        "icon": "icons/nodejs.png",
+        "skillTypeId": 2
+    },
+    {
+        "id": 21,
         "name": ".NET",
         "icon": "icons/dotnet.png",
         "skillTypeId": 2
     },
     {
-        "id": 21,
-        "name": "Django",
-        "icon": "icons/django.png",
-        "skillTypeId": 2
-    },
-    {
         "id": 22,
-        "name": "Laravel",
-        "icon": "icons/laravel.png",
+        "name": "C#",
+        "icon": "icons/c_sharp.png",
         "skillTypeId": 2
     },
     {
         "id": 23,
-        "name": "Python",
-        "icon": "icons/python.png",
+        "name": "Laravel",
+        "icon": "icons/laravel.png",
         "skillTypeId": 2
     },
     {
@@ -79,26 +80,26 @@
     },
     {
         "id": 25,
-        "name": "Node JS",
-        "icon": "icons/nodejs.png",
+        "name": "Django",
+        "icon": "icons/django.png",
         "skillTypeId": 2
     },
     {
         "id": 26,
-        "name": "C#",
-        "icon": "icons/c_sharp.png",
+        "name": "Python",
+        "icon": "icons/python.png",
         "skillTypeId": 2
     },
     {
         "id": 40,
-        "name": "Mysql",
-        "icon": "icons/mysql.png",
+        "name": "PostgreSQL",
+        "icon": "icons/postgresql.png",
         "skillTypeId": 3
     },
     {
         "id": 41,
-        "name": "PostgreSQL",
-        "icon": "icons/postgresql.png",
+        "name": "Mysql",
+        "icon": "icons/mysql.png",
         "skillTypeId": 3
     },
     {

@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import profileImg from "../public/profile.png";
@@ -6,10 +8,20 @@ import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
+import { useState } from "react";
 
 export default function Home() {
   const skillTypes = skillTypesJson as ListOfSkillTypes;
   const skills = skillsJson as ListOfSkills;
+  const [showSkills, setShowSkills] = useState<ListOfSkills>(skills);
+
+  const handleSkillsFilter = (skillTypeId: number) => {
+    if (skillTypeId === 0) setShowSkills(skills);
+    else
+      setShowSkills(
+        skills.filter((skill) => skill.skillTypeId === skillTypeId)
+      );
+  };
 
   return (
     <main>
@@ -42,13 +54,17 @@ export default function Home() {
       <div className={styles.section}>
         <h1>SKILLS</h1>
         <div className={styles.tags}>
-          <Tag type="All" />
+          <Tag type="All" onClick={() => handleSkillsFilter(0)} />
           {skillTypes.map((tag) => (
-            <Tag key={tag.id} type={tag.type} />
+            <Tag
+              key={tag.id}
+              type={tag.type}
+              onClick={() => handleSkillsFilter(tag.id)}
+            />
           ))}
         </div>
         <div className={styles.skills}>
-          {skills.map((skill) => (
+          {showSkills.map((skill) => (
             <TechIcon key={skill.id} tech={skill} />
           ))}
         </div>

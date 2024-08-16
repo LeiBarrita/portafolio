@@ -60,6 +60,10 @@
   .tags {
     gap: var(--gap-md);
   }
+  .skills {
+    justify-content: space-evenly;
+    gap: var(--gap-md);
+  }
 }
 
 @media (max-width: 768px) {
@@ -69,6 +73,10 @@
   }
   .section {
     padding: calc(2 * var(--padding-md));
+  }
+  .skills {
+    justify-content: space-around;
+    gap: var(--gap-sm);
   }
 }
 
@@ -100,5 +108,9 @@
   }
   .tags {
     display: none;
+  }
+  .skills {
+    width: 100vw;
+    justify-content: space-around;
   }
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const TechIcon = ({ tech }: { tech: Skill }) => {
   return (
-    <div className={styles.iconContainer}>
+    <div className={styles.iconContainer} data-before-content={tech.name}>
       <Image
         className={styles.icon}
         src={tech.icon}
