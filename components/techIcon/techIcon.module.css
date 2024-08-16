@@ -1,0 +1,15 @@
+.iconContainer {
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--tertiary-color);
+    padding: 10px;
+}
+
+.icon {
+    object-fit: contain;
+}

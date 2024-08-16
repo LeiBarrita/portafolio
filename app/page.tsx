@@ -5,6 +5,7 @@ import { ListOfSkills, ListOfSkillTypes } from "@/types";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import Tag from "@/components/tag/Tag";
+import TechIcon from "@/components/techIcon/TechIcon";
 
 export default function Home() {
   const skillTypes = skillTypesJson as ListOfSkillTypes;
@@ -46,9 +47,9 @@ export default function Home() {
             <Tag key={tag.id} type={tag.type} />
           ))}
         </div>
-        <div>
+        <div className={styles.skills}>
           {skills.map((skill) => (
-            <p key={skill.id}>{skill.name}</p>
+            <TechIcon key={skill.id} tech={skill} />
           ))}
         </div>
       </div>

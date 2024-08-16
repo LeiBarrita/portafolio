@@ -1,6 +1,7 @@
 export interface Skill {
   id: int;
   name: string;
+  icon: string;
   skillTypeId: int;
 }
 
