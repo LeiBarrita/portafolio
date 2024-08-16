@@ -1,0 +1,10 @@
+.tag {
+    /* background-color: var(--tertiary-color); */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tag:hover {
+    cursor: pointer;
+    scale: 110%;
+}
