@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Abyssinica_SIL } from "next/font/google";
 import "./globals.css";
 import "./styles.css";
 import Header from "@/components/header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const abyssinica = Abyssinica_SIL({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Uziel Barrita",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`container ${inter.className}`}>
+      <body className={`container ${abyssinica.className}`}>
         {children}
         <Header />
       </body>

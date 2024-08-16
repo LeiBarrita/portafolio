@@ -3,9 +3,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import profileImg from "../public/profile.png";
-import { ListOfSkills, ListOfSkillTypes } from "@/types";
+import { Info, ListOfSkills, ListOfSkillTypes } from "@/types";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
+import infoJson from "../data/info.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
@@ -13,6 +14,7 @@ import { useState } from "react";
 export default function Home() {
   const skillTypes = skillTypesJson as ListOfSkillTypes;
   const skills = skillsJson as ListOfSkills;
+  const info = infoJson as Info;
   const [showSkills, setShowSkills] = useState<ListOfSkills>(skills);
 
   const handleSkillsFilter = (skillTypeId: number) => {
@@ -34,8 +36,8 @@ export default function Home() {
         />
         <div className={styles.infoContainer}>
           <div>
-            <h1>PEDRO UZIEL</h1>
-            <h1>BARRITA LICEA</h1>
+            <h1>{info.name}</h1>
+            <h1>{info.lastName}</h1>
           </div>
           <h3>SOFTWARE ENGINEER</h3>
         </div>
@@ -43,12 +45,7 @@ export default function Home() {
 
       <div className={`secondary-section ${styles.section}`}>
         <h2>ABOUT ME</h2>
-        <p className={styles.text}>
-          Graduated in computer systems with 5 years of programming experience
-          and 3 focused on software and web development. I’m a really curious
-          person, and I love to learn about everything. I´m always searching for
-          a challenge and exploring new technologies
-        </p>
+        <p className={styles.text}>{info.aboutMe}</p>
       </div>
 
       <div className={styles.section}>
