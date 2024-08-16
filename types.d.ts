@@ -1,3 +1,9 @@
+export interface Info {
+  name: string;
+  lastName: string;
+  aboutMe: string;
+}
+
 export interface Skill {
   id: int;
   name: string;
