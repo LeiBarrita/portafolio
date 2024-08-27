@@ -3,15 +3,23 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import profileImg from "../public/profile.png";
-import { Info, ListOfSkills, ListOfSkillTypes } from "@/types";
+import {
+  Info,
+  ListOfExperienceEvents,
+  ListOfSkills,
+  ListOfSkillTypes,
+} from "@/types";
+import experiencesJson from "../data/experience.json";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import infoJson from "../data/info.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
+import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
 
 export default function Home() {
+  const experiences = experiencesJson as ListOfExperienceEvents;
   const skillTypes = skillTypesJson as ListOfSkillTypes;
   const skills = skillsJson as ListOfSkills;
   const info = infoJson as Info;
@@ -43,12 +51,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`secondary-section ${styles.section}`}>
+      <div className={`secondary-section section`}>
         <h2>ABOUT ME</h2>
         <p className={styles.text}>{info.aboutMe}</p>
       </div>
 
-      <div className={styles.section}>
+      <div className="section">
         <h1>SKILLS</h1>
         <div className={styles.tags}>
           <Tag type="All" onClick={() => handleSkillsFilter(0)} />
@@ -67,10 +75,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`secondary-section ${styles.section}`}>
+      <div className="secondary-section full-section">
         <h2>EXPERIENCE</h2>
-        <div>
-          <p>Timeline</p>
+        <p>Timeline</p>
+        <div className={styles.timeline}>
+          {experiences.map((experience, index) => (
+            <div
+              key={experience.id}
+              className={index % 2 === 0 ? "self-right" : "self-left"}
+            >
+              <ExperienceDisplay experience={experience} />
+            </div>
+          ))}
         </div>
       </div>
     </main>
