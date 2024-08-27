@@ -20,7 +20,6 @@
 }
 
 .section {
-  max-width: var(--section-max-w);
   padding: calc(2 * var(--padding-lg));
   display: flex;
   flex-direction: column;
@@ -30,6 +29,7 @@
 
 .text {
   line-height: 2rem;
+  max-width: var(--section-max-w);
 }
 
 .tags {
@@ -72,7 +72,7 @@
       height: 200px;
   }
   .section {
-    padding: calc(2 * var(--padding-md));
+    padding: calc(2 * var(--padding-md)) 0;
   }
   .skills {
     justify-content: space-around;
@@ -99,6 +99,10 @@
   .infoContainer {
     gap: var(--gap-sm);
   }
+  .section {
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
+  }
   .image {
       width: 80%;
       height: auto;
@@ -107,6 +111,6 @@
     display: none;
   }
   .skills {
-    justify-content: space-between;
+    justify-content: center;
   }
 }

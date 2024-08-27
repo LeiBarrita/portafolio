@@ -14,7 +14,7 @@
 
 	--gap-lg: 50px;
 	--gap-md: 30px;
-	--gap-sm: 10px;
+	--gap-sm: 16px;
 }
 
 ::-webkit-scrollbar {
@@ -123,7 +123,7 @@ a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100vw;
+	width: 110vw;
 	height: 100%;
 	z-index: -1;
 }

@@ -47,6 +47,14 @@ export default function Credits() {
       >
         C sharp icons created by Freepik - Flaticon
       </a>
+
+      <a href="https://www.flaticon.com/free-icons/unity" title="unity icons">
+        Unity icons created by Freepik - Flaticon
+      </a>
+
+      <a href="https://www.flaticon.com/free-icons/git" title="git icons">
+        Git icons created by pocike - Flaticon
+      </a>
     </main>
   );
 }
