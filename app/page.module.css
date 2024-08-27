@@ -88,6 +88,12 @@
     justify-content: space-around;
     gap: var(--gap-sm);
   }
+  .timeline {
+    gap: var(--gap-lg);
+  }
+  .timeline::after {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {

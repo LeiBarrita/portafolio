@@ -79,7 +79,7 @@ export default function Home() {
         <h2>EXPERIENCE</h2>
         <p>Timeline</p>
         <div className={styles.timeline}>
-          {experiences.map((experience, index) => (
+          {experiences.toReversed().map((experience, index) => (
             <div
               key={experience.id}
               className={index % 2 === 0 ? "self-right" : "self-left"}
