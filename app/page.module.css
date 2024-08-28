@@ -88,6 +88,9 @@
     justify-content: space-around;
     gap: var(--gap-sm);
   }
+  .timelineTag {
+    display: none;
+  }
   .timeline {
     gap: var(--gap-lg);
   }
@@ -124,5 +127,9 @@
   }
   .skills {
     justify-content: center;
+  }
+  .gratitude {
+    justify-content: center;
+    height: 100lvh;
   }
 }

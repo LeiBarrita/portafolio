@@ -77,7 +77,7 @@ export default function Home() {
 
       <div className="secondary-section full-section">
         <h2>EXPERIENCE</h2>
-        <p>Timeline</p>
+        <p className={styles.timelineTag}>Timeline</p>
         <div className={styles.timeline}>
           {experiences.toReversed().map((experience, index) => (
             <div
@@ -89,6 +89,8 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <h1 className={`section ${styles.gratitude}`}>THANKS FOR SCROLLING!</h1>
     </main>
   );
 }

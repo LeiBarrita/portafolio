@@ -227,6 +227,7 @@ a {
 @media (max-width: 475px) {
 	.container {
 		padding: var(--padding-sm);
+		padding-bottom: 0;
 	}
 	.section {
 		padding-left: var(--padding-sm);
