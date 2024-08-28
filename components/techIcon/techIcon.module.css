@@ -1,15 +1,9 @@
 .iconContainer {
-    width: 64px;
-    height: 64px;
+    height: auto;
+    width: auto;
     position: relative;
     justify-content: center;
     align-items: center;
-    border-radius: 18px;
-    border: solid;
-    border-width: 1px;
-    border-color: var(--tertiary-color);
-    /* background-color: white; */
-    padding: 10px;
 }
 
 .iconContainer:hover {
@@ -37,9 +31,6 @@
 }
 
 @media (max-width: 768px) {
-    .iconContainer {
-        border: none;
-    }
     .iconContainer:hover::before {
         display: none;
     }   

@@ -3,6 +3,7 @@ import { Abyssinica_SIL } from "next/font/google";
 import "./globals.css";
 import "./styles.css";
 import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
 const abyssinica = Abyssinica_SIL({ weight: "400", subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={`container ${abyssinica.className}`}>
         {children}
         <Header />
+        <Footer />
       </body>
     </html>
   );

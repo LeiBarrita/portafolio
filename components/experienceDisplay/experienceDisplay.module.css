@@ -1,0 +1,46 @@
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: var(--gap-md);
+}
+
+.date {
+    color: var(--primary-color);
+}
+
+.experience {
+    color: var(--tertiary-color);
+}
+
+@media (max-width: 1536px) {
+    .experienceContainer {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .experienceContainer {
+        max-width: 360px;
+    }
+}
+  
+@media (max-width: 1024px) {
+    .experienceContainer {
+        max-width: 250px;
+    }
+}
+  
+@media (max-width: 768px) {
+    .experienceContainer {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 475px) {
+
+}

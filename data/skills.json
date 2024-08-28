@@ -116,12 +116,24 @@
     },
     {
         "id": 60,
+        "name": "Unity",
+        "icon": "icons/unity.png",
+        "skillTypeId": 4
+    },
+    {
+        "id": 61,
+        "name": "Git",
+        "icon": "icons/git.png",
+        "skillTypeId": 4
+    },
+    {
+        "id": 62,
         "name": "AWS",
         "icon": "icons/aws.png",
         "skillTypeId": 4
     },
     {
-        "id": 61,
+        "id": 63,
         "name": "Docker",
         "icon": "icons/docker.png",
         "skillTypeId": 4
