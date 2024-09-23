@@ -58,6 +58,12 @@
   border-radius: 20px;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: calc(1.5 * var(--gap-lg));
+}
+
 @media (max-width: 1280px) {
   .image {
     width: 300px;

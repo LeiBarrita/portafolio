@@ -20,6 +20,7 @@ import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
 import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
 import Link from "next/link";
+import ContactIcon from "@/components/contactIcon/ContactIcon";
 
 export default function Home() {
   const experiences = experiencesJson as ListOfExperienceEvents;
@@ -96,16 +97,12 @@ export default function Home() {
 
       <div className="section" id="home-contact">
         <h1>CONTACT</h1>
-        <div className={styles.skills}>
+        <div className={styles.contact}>
           {contactInfo.map((contact) => (
-            <Link key={contact.id} href={contact.htmlLink}>
-              {contact.tag}
-            </Link>
-            // <div key={contact.id}>{contact.rawLink}</div>
+            <ContactIcon key={contact.id} contactInfo={contact} />
           ))}
         </div>
       </div>
-      {/* <h1 className={`section ${styles.gratitude}`}>THANKS FOR SCROLLING!</h1> */}
     </main>
   );
 }
