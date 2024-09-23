@@ -31,14 +31,15 @@
 
 @media (max-width: 475px) {
   .header {
-    position: static;
+    display: none;
+    /* position: static;
     width: 100%;
     height: 100lvh;
     font-size: 2.5rem;
-    justify-content: center;
+    justify-content: center; */
   }
-  .separation {
+  /* .separation {
     flex-direction: column;
     gap: 30px;
-  }
+  } */
 }

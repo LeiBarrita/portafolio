@@ -58,10 +58,22 @@
   border-radius: 20px;
 }
 
+.contact {
+  /* background-color: aqua; */
+  display: flex;
+  /* width: 100vw; */
+  justify-content: center;
+  gap: calc(2 * var(--gap-lg));
+}
+
 @media (max-width: 1280px) {
   .image {
     width: 300px;
     height: 300px;
+  }
+
+  .contact {
+    gap: calc(1.5 * var(--gap-lg));
   }
 }
 
@@ -97,6 +109,9 @@
   .timeline::after {
     display: none;
   }
+  .contact {
+    gap: var(--gap-lg);
+  }
 }
 
 @media (max-width: 640px) {
@@ -131,5 +146,9 @@
   .gratitude {
     justify-content: center;
     height: 100lvh;
+  }
+  .contact {
+    flex-wrap: wrap;
+    gap: var(--gap-sm);
   }
 }

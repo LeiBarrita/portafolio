@@ -7,7 +7,7 @@ const Header = () => {
       <Link href="/">Uziel Barrita</Link>
       <div className={styles.separation}>
         <Link href="portafolio">Portafolio</Link>
-        <Link href="contact">Contact</Link>
+        <Link href="#home-contact">Contact</Link>
         <Link href="">Spanish</Link>
       </div>
     </header>

@@ -30,3 +30,13 @@ export interface ExperienceEvent {
 }
 
 export type ListOfExperienceEvents = ExperienceEvent[];
+
+export interface ContactInfo {
+  id: int;
+  tag: string;
+  rawLink: string;
+  htmlLink: string;
+  icon: string;
+}
+
+export type ListOfContactInfo = ContactInfo[];

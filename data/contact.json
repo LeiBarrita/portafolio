@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "tag": "Phone",
+    "rawLink": "4433731339",
+    "htmlLink": "tel:4433731339",
+    "icon": "icons/contact/phone.png"
+  },
+  {
+    "id": 2,
+    "tag": "Email",
+    "rawLink": "leibarrita@gmail.com",
+    "htmlLink": "mailto:leibarrita@gmail.com",
+    "icon": "icons/contact/email.png"
+  },
+  {
+    "id": 3,
+    "tag": "Linkedin",
+    "rawLink": "www.linkedin.com/in/uzielbarrita",
+    "htmlLink": "https://www.linkedin.com/in/uzielbarrita",
+    "icon": "icons/contact/linkedin.png"
+  },
+  {
+    "id": 4,
+    "tag": "Work Github",
+    "rawLink": "github.com/LeiBarrita",
+    "htmlLink": "https://github.com/LeiBarrita",
+    "icon": "icons/contact/github.png"
+  }
+]

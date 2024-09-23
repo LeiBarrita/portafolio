@@ -55,6 +55,25 @@ export default function Credits() {
       <a href="https://www.flaticon.com/free-icons/git" title="git icons">
         Git icons created by pocike - Flaticon
       </a>
+
+      <a href="https://www.flaticon.com/free-icons/github" title="github icons">
+        Github icons created by Pixel perfect - Flaticon
+      </a>
+
+      <a href="https://www.flaticon.com/free-icons/phone" title="phone icons">
+        Phone icons created by Creaticca Creative Agency - Flaticon
+      </a>
+
+      <a href="https://www.flaticon.com/free-icons/email" title="email icons">
+        Email icons created by rukanicon - Flaticon
+      </a>
+
+      <a
+        href="https://www.flaticon.com/free-icons/linkedin"
+        title="linkedin icons"
+      >
+        Linkedin icons created by Freepik - Flaticon
+      </a>
     </main>
   );
 }
