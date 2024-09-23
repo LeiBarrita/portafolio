@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "tag": "Phone",
+    "rawLink": "4433731339",
+    "htmlLink": "tel:4433731339",
+    "icon": "icons/html.png"
+  },
+  {
+    "id": 2,
+    "tag": "Email",
+    "rawLink": "leibarrita@gmail.com",
+    "htmlLink": "mailto:leibarrita@gmail.com",
+    "icon": "icons/html.png"
+  },
+  {
+    "id": 3,
+    "tag": "Linkedin",
+    "rawLink": "www.linkedin.com/in/uzielbarrita",
+    "htmlLink": "https://www.linkedin.com/in/uzielbarrita",
+    "icon": "icons/html.png"
+  },
+  {
+    "id": 4,
+    "tag": "Github 1",
+    "rawLink": "github.com/LeiBarrita",
+    "htmlLink": "https://github.com/LeiBarrita",
+    "icon": "icons/javascript.png"
+  },
+  {
+    "id": 5,
+    "tag": "Github 2",
+    "rawLink": "github.com/LeiWithP",
+    "htmlLink": "https://github.com/LeiWithP",
+    "icon": "icons/typescript.png"
+  }
+]

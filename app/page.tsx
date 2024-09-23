@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import profileImg from "../public/profile.png";
 import {
   Info,
+  ListOfContactInfo,
   ListOfExperienceEvents,
   ListOfSkills,
   ListOfSkillTypes,
@@ -13,14 +14,17 @@ import experiencesJson from "../data/experience.json";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import infoJson from "../data/info.json";
+import contactJson from "../data/contact.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
 import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
+import Link from "next/link";
 
 export default function Home() {
   const experiences = experiencesJson as ListOfExperienceEvents;
   const skillTypes = skillTypesJson as ListOfSkillTypes;
+  const contactInfo = contactJson as ListOfContactInfo;
   const skills = skillsJson as ListOfSkills;
   const info = infoJson as Info;
   const [showSkills, setShowSkills] = useState<ListOfSkills>(skills);
@@ -90,7 +94,18 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className={`section ${styles.gratitude}`}>THANKS FOR SCROLLING!</h1>
+      <div className="section" id="home-contact">
+        <h1>CONTACT</h1>
+        <div className={styles.skills}>
+          {contactInfo.map((contact) => (
+            <Link key={contact.id} href={contact.htmlLink}>
+              {contact.tag}
+            </Link>
+            // <div key={contact.id}>{contact.rawLink}</div>
+          ))}
+        </div>
+      </div>
+      {/* <h1 className={`section ${styles.gratitude}`}>THANKS FOR SCROLLING!</h1> */}
     </main>
   );
 }
