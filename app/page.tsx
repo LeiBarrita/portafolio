@@ -19,7 +19,6 @@ import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
 import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
-import Link from "next/link";
 import ContactIcon from "@/components/contactIcon/ContactIcon";
 
 export default function Home() {
