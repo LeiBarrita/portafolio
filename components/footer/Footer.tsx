@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <footer className={`${styles.footer} secondary-section`}>
-      <Link href="/">Uziel Barrita</Link>
+      <Link href="/">Home</Link>
       <Link href="portafolio">Portafolio</Link>
       <Link href="credits">Credits</Link>
       <Link href="/">Spanish</Link>
