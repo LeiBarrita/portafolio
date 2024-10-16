@@ -40,3 +40,13 @@ export interface ContactInfo {
 }
 
 export type ListOfContactInfo = ContactInfo[];
+
+export interface Project {
+  id: int;
+  name: string;
+  technologies: string;
+  description: string;
+  images: { link: string }[];
+}
+
+export type ListOfProjects = Project[];

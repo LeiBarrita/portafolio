@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Ponymaps",
+    "technologies": "Flutter, MongoDB",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": [
+      {
+        "link": "https://drive.google.com/file/d/1XGBjzyKZsMRQTsK1F57qxr01zzXYPtx8/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ticket Administration System",
+    "technologies": "React, Django Rest API, PostgreSQL",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": [
+      {
+        "link": "https://drive.google.com/file/d/1XGBjzyKZsMRQTsK1F57qxr01zzXYPtx8/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Systems Department Landing Page",
+    "technologies": "Next JS",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": [
+      {
+        "link": "https://drive.google.com/file/d/1XGBjzyKZsMRQTsK1F57qxr01zzXYPtx8/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "This",
+    "technologies": "Next JS",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": []
+  }
+]
