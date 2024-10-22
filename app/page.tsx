@@ -80,7 +80,7 @@ export default function Home() {
       </div>
 
       <div className="secondary-section full-section">
-        <h2>EXPERIENCE</h2>
+        <h2>RESUME</h2>
         <p className={styles.timelineTag}>Timeline</p>
         <div className={styles.timeline}>
           {experiences.toReversed().map((experience, index) => (

@@ -3,16 +3,6 @@ import styles from "./imgSlider.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const getDriveThumbnailUrl = (drivelink: string): string => {
-  const regex = /\/file\/d\/(.*?)\/view\?/;
-  const driveId = drivelink.match(regex);
-
-  if (!driveId) return "";
-
-  const link = `https://drive.google.com/thumbnail?id=${driveId[1]}&sz=w1000`;
-  return link;
-};
-
 const ImgSlider = ({ images }: { images: ListOfAppPhotos }) => {
   const [currentImg, setCurrentImg] = useState(0);
 
@@ -32,7 +22,7 @@ const ImgSlider = ({ images }: { images: ListOfAppPhotos }) => {
       className={styles.image}
       width={100}
       height={100}
-      src={getDriveThumbnailUrl(images[currentImg].link)}
+      src={images[currentImg].link}
       alt="Project picture"
     />
   );
