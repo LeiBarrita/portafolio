@@ -41,12 +41,18 @@ export interface ContactInfo {
 
 export type ListOfContactInfo = ContactInfo[];
 
+export interface AppPhoto {
+  link: string;
+}
+
+export type ListOfAppPhotos = AppPhoto[];
+
 export interface Project {
   id: int;
   name: string;
   technologies: string;
   description: string;
-  images: { link: string }[];
+  images: ListOfAppPhotos;
 }
 
 export type ListOfProjects = Project[];

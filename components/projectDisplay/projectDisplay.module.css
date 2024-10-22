@@ -12,9 +12,3 @@
   padding-right: 100px;
   /* padding-left: 120px; */
 }
-
-.image {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
