@@ -1,0 +1,49 @@
+.bentoGrid {
+  display: grid;
+  width: 100%;
+  gap: 16px;
+  margin-top: var(--gap-md);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.bentoGridItem {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: start; */
+  /* align-items: center; */
+  overflow: hidden;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.bentoGridItem img:hover {
+  object-fit: contain;
+}
+
+.bentoGridItem img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* .column {
+}
+
+.bentoGrid {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto-fit;
+  gap: 10px;
+}
+
+.image {
+  object-fit: contain;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+} */

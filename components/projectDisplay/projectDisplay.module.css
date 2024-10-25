@@ -1,5 +1,6 @@
 .appContainer {
   display: flex;
+  padding: 0 120px;
 }
 
 .textSection {
@@ -7,8 +8,43 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   padding: 40px 0;
-  padding-right: 100px;
   /* padding-left: 120px; */
+  gap: var(--gap-md);
+}
+
+.left {
+  padding-right: 100px;
+  text-align: start;
+}
+
+.left h2 {
+  align-self: start;
+}
+
+.middle {
+  text-align: center;
+}
+
+/* Responsive Container */
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+  .appContainer {
+    display: flex;
+    padding: 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 475px) {
 }

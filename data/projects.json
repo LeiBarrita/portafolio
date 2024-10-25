@@ -6,13 +6,24 @@
     "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
     "images": [
       {
-        "link": "https://ibb.co/PWKQy9y"
+        "id": 1,
+        "link": "https://i.ibb.co/YdmZSyS/download.jpg"
       },
       {
+        "id": 2,
         "link": "https://i.ibb.co/p40vz7G/African-Journey-Webshots.jpg"
       },
       {
+        "id": 3,
         "link": "https://i.ibb.co/vYX7NZc/Podcast-Bear.jpg"
+      },
+      {
+        "id": 32,
+        "link": "https://i.ibb.co/GMr603x/raccon1.jpg"
+      },
+      {
+        "id": 33,
+        "link": "https://i.ibb.co/YNMGkDX/rat1.jpg"
       }
     ]
   },
@@ -23,17 +34,19 @@
     "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
     "images": [
       {
+        "id": 4,
         "link": "https://i.ibb.co/YNMGkDX/rat1.jpg"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Systems Department Landing Page",
+    "name": "IT Department Web Page",
     "technologies": "Next JS",
     "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
     "images": [
       {
+        "id": 5,
         "link": "https://i.ibb.co/p40vz7G/African-Journey-Webshots.jpg"
       }
     ]

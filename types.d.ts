@@ -42,6 +42,7 @@ export interface ContactInfo {
 export type ListOfContactInfo = ContactInfo[];
 
 export interface AppPhoto {
+  id: int;
   link: string;
 }
 
