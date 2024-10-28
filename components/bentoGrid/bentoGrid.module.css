@@ -7,43 +7,19 @@
   grid-template-rows: repeat(auto-fit, 1fr);
 }
 
-.bentoGridItem {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: start; */
-  /* align-items: center; */
+.bentoGridColumn {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
   overflow: hidden;
   grid-column: span 2;
   grid-row: span 1;
+  gap: 16px;
 }
 
-.bentoGridItem img:hover {
-  object-fit: contain;
-}
-
-.bentoGridItem img {
+.bentoGridImage {
   object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
-
-/* .column {
-}
-
-.bentoGrid {
-  display: grid;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto-fit;
-  gap: 10px;
-}
-
-.image {
-  object-fit: contain;
-  border-radius: 10px;
-  height: auto;
-  width: 100%;
-} */
