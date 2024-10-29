@@ -57,3 +57,12 @@ export interface Project {
 }
 
 export type ListOfProjects = Project[];
+
+export interface Attribution {
+  id: int;
+  title: string;
+  description: string;
+  link: string;
+}
+
+export type ListOfAttributions = Attribution[];

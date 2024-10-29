@@ -1,0 +1,7 @@
+.credits {
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  /* height: 60vh; */
+  gap: var(--gap-sm);
+}

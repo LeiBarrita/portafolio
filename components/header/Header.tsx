@@ -8,7 +8,7 @@ const Header = () => {
       <div className={styles.separation}>
         <Link href="portafolio">Projects</Link>
         <Link href="#home-contact">Contact</Link>
-        <Link href="">Spanish</Link>
+        {/* <Link href="">Spanish</Link> */}
       </div>
     </header>
   );

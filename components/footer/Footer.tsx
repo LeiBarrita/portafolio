@@ -7,7 +7,7 @@ const Footer = () => {
       <Link href="/">Home</Link>
       <Link href="portafolio">Projects</Link>
       <Link href="credits">Credits</Link>
-      <Link href="/">Spanish</Link>
+      {/* <Link href="/">Spanish</Link> */}
       <Link href="https://g.co/kgs/iiJS65j">Michoacán, México</Link>
     </footer>
   );
