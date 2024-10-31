@@ -30,8 +30,8 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
         </div>
       ) : (
         <>
-          <div className={`${styles.projectCard} ${styles.left}`}>
-            <div className={styles.cardText}>
+          <div className={`${styles.projectCard} `}>
+            <div className={`${styles.cardText} ${styles.left}`}>
               <h2 onClick={toggleExpanded}>{project.name}</h2>
               <p>{trimText(project.description, 250)}</p>
             </div>
