@@ -48,9 +48,19 @@
 }
 
 @media (max-width: 1280px) {
-  .appContainer {
-    display: flex;
-    padding: 0 0;
+  .projectCard {
+    justify-content: center;
+  }
+  .cardText {
+    justify-content: center;
+    padding: 0;
+    gap: var(--gap-md);
+    /* background-color: aliceblue; */
+  }
+  .left,
+  .left h2 {
+    text-align: center;
+    align-self: center;
   }
 }
 
@@ -64,4 +74,7 @@
 }
 
 @media (max-width: 475px) {
+  .cardText {
+    padding: 0 var(--padding-sm);
+  }
 }

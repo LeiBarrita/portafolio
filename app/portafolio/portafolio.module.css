@@ -27,3 +27,6 @@
 	text-align: center;
 	gap: var(--gap-lg);
 } */
+
+@media (max-width: 475px) {
+}
