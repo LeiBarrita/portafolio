@@ -3,7 +3,13 @@ import styles from "./imgSlider.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const ImgSlider = ({ images }: { images: ListOfAppPhotos }) => {
+const ImgSlider = ({
+  images,
+  onClick,
+}: {
+  images: ListOfAppPhotos;
+  onClick: () => void;
+}) => {
   const [currentImg, setCurrentImg] = useState(0);
 
   useEffect(() => {
@@ -24,6 +30,7 @@ const ImgSlider = ({ images }: { images: ListOfAppPhotos }) => {
       height={100}
       src={images[currentImg].link}
       alt="Project picture"
+      onClick={onClick}
     />
   );
 };

@@ -22,22 +22,24 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
 
   return (
     <div className={styles.appContainer}>
-      {!isExpanded && (
-        <>
-          <div className={`${styles.textSection} ${styles.left}`}>
-            <h2 onClick={toggleExpanded}>{project.name}</h2>
-            <p>{trimText(project.description, 250)}</p>
-          </div>
-          {project.images.length > 0 && <ImgSlider images={project.images} />}
-        </>
-      )}
-
-      {isExpanded && (
-        <div className={`${styles.textSection} ${styles.middle}`}>
+      {isExpanded ? (
+        <div className={`${styles.expandedCard} ${styles.middle}`}>
           <h2 onClick={toggleExpanded}>{project.name}</h2>
           <p>{project.description}</p>
           <ImgBentoGrid images={project.images} />
         </div>
+      ) : (
+        <>
+          <div className={`${styles.projectCard} ${styles.left}`}>
+            <div className={styles.cardText}>
+              <h2 onClick={toggleExpanded}>{project.name}</h2>
+              <p>{trimText(project.description, 250)}</p>
+            </div>
+            {project.images.length > 0 && (
+              <ImgSlider images={project.images} onClick={toggleExpanded} />
+            )}
+          </div>
+        </>
       )}
     </div>
   );

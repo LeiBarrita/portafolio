@@ -1,7 +1,8 @@
 .image {
-  object-fit: contain;
-  width: 400px;
-  height: 400px;
+  object-fit: cover;
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1536px) {
