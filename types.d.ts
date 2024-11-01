@@ -40,3 +40,29 @@ export interface ContactInfo {
 }
 
 export type ListOfContactInfo = ContactInfo[];
+
+export interface AppPhoto {
+  id: int;
+  link: string;
+}
+
+export type ListOfAppPhotos = AppPhoto[];
+
+export interface Project {
+  id: int;
+  name: string;
+  technologies: string;
+  description: string;
+  images: ListOfAppPhotos;
+}
+
+export type ListOfProjects = Project[];
+
+export interface Attribution {
+  id: int;
+  title: string;
+  description: string;
+  link: string;
+}
+
+export type ListOfAttributions = Attribution[];

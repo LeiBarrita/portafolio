@@ -10,13 +10,13 @@
   padding-top: var(--padding-lg);
   padding-bottom: var(--padding-lg);
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   text-align: center;
 }
 
 @media (max-width: 768px) {
   .header {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
   .separation {
     gap: var(--gap-md);

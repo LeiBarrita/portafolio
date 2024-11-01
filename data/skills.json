@@ -79,18 +79,6 @@
     "skillTypeId": 2
   },
   {
-    "id": 25,
-    "name": "Django",
-    "icon": "icons/tech/django.png",
-    "skillTypeId": 2
-  },
-  {
-    "id": 26,
-    "name": "Python",
-    "icon": "icons/tech/python.png",
-    "skillTypeId": 2
-  },
-  {
     "id": 40,
     "name": "PostgreSQL",
     "icon": "icons/tech/postgresql.png",
@@ -106,12 +94,6 @@
     "id": 42,
     "name": "SQL Server",
     "icon": "icons/tech/sql_server.png",
-    "skillTypeId": 3
-  },
-  {
-    "id": 43,
-    "name": "MongoDB",
-    "icon": "icons/tech/mongodb.png",
     "skillTypeId": 3
   },
   {

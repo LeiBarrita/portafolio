@@ -1,0 +1,80 @@
+.appContainer {
+  display: flex;
+  padding: 0 0px;
+  /* background-color: aliceblue; */
+}
+
+.projectCard {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  /* padding-left: 120px; */
+  gap: var(--gap-md);
+}
+
+.cardText {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expandedCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  /* padding-left: 120px; */
+  gap: var(--gap-md);
+}
+
+.left {
+  padding-right: 100px;
+  text-align: start;
+}
+
+.left h2 {
+  align-self: start;
+}
+
+.middle {
+  text-align: center;
+}
+
+/* Responsive Container */
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+  .projectCard {
+    justify-content: center;
+  }
+  .cardText {
+    justify-content: center;
+    padding: 0;
+    gap: var(--gap-md);
+    /* background-color: aliceblue; */
+  }
+  .left,
+  .left h2 {
+    text-align: center;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 475px) {
+  .cardText {
+    padding: 0 var(--padding-sm);
+  }
+}
