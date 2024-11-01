@@ -20,7 +20,7 @@ export default function Portafolio() {
 
   return (
     <main className={styles.main}>
-      <div className={`${styles.primarySection}`}>
+      <div className={`${styles.primarySection} ${styles.topSection}`}>
         <h1>Projects</h1>
       </div>
 

@@ -29,4 +29,12 @@
 } */
 
 @media (max-width: 475px) {
+  /* .main {
+    padding-top: 0;
+  } */
+
+  .topSection {
+    position: absolute;
+    top: 0;
+  }
 }

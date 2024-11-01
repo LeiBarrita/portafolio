@@ -1,9 +1,11 @@
 import styles from "./bentoGrid.module.css";
 import { ListOfAppPhotos } from "@/types";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const ImgBentoGrid = ({ images }: { images: ListOfAppPhotos }) => {
+  const [noCols, setNoCols] = useState(3);
+
   const splitImageArray = (
     baseArray: ListOfAppPhotos,
     noCols: number
@@ -21,9 +23,22 @@ const ImgBentoGrid = ({ images }: { images: ListOfAppPhotos }) => {
     return imageArrays;
   };
 
+  useEffect(() => {
+    const updateNoCols = () => {
+      if (window.innerWidth <= 640) setNoCols(1);
+      else if (window.innerWidth <= 1024) setNoCols(2);
+      else setNoCols(3);
+    };
+
+    updateNoCols();
+    window.addEventListener("resize", updateNoCols);
+
+    return () => window.removeEventListener("resize", updateNoCols);
+  }, []);
+
   return (
     <div className={styles.bentoGrid}>
-      {splitImageArray(images, 3).map((imageArray, index) => (
+      {splitImageArray(images, noCols).map((imageArray, index) => (
         <div key={index} className={styles.bentoGridColumn}>
           {imageArray.map((image) => (
             <Image
