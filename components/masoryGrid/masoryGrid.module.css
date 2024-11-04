@@ -1,0 +1,26 @@
+.bentoGrid {
+  width: 100%;
+  margin-top: var(--gap-md);
+  columns: 3;
+  column-gap: 20px;
+}
+
+.bentoGridImage {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 1024px) {
+  .bentoGrid {
+    columns: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .bentoGrid {
+    columns: 1;
+  }
+}
