@@ -3,96 +3,112 @@
     "id": 1,
     "title": "javascript icons",
     "description": "Javascript icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/javascript"
+    "link": "https://www.flaticon.com/free-icons/javascript",
+    "icon": "icons/tech/javascript.png"
   },
   {
     "id": 2,
     "title": "typescript icons",
     "description": "Typescript icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/typescript"
+    "link": "https://www.flaticon.com/free-icons/typescript",
+    "icon": "icons/tech/typescript.png"
   },
   {
     "id": 3,
     "title": "html icons",
     "description": "Html icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/html"
+    "link": "https://www.flaticon.com/free-icons/html",
+    "icon": "icons/tech/html.png"
   },
   {
     "id": 4,
     "title": "css icons",
     "description": "Css icons created by iconsimple - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/css"
+    "link": "https://www.flaticon.com/free-icons/css",
+    "icon": "icons/tech/css.png"
   },
   {
     "id": 5,
     "title": "bootstrap icons",
     "description": "Bootstrap icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/bootstrap"
+    "link": "https://www.flaticon.com/free-icons/bootstrap",
+    "icon": "icons/tech/bootstrap.png"
   },
   {
     "id": 6,
     "title": "react icons",
     "description": "React icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/react"
+    "link": "https://www.flaticon.com/free-icons/react",
+    "icon": "icons/tech/react.png"
   },
   {
     "id": 7,
     "title": "python icons",
     "description": "Python icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/python"
+    "link": "https://www.flaticon.com/free-icons/python",
+    "icon": "icons/tech/python.png"
   },
   {
     "id": 8,
     "title": "mysql icons",
     "description": "Mysql icons created by pocike - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/mysql"
+    "link": "https://www.flaticon.com/free-icons/mysql",
+    "icon": "icons/tech/mysql.png"
   },
   {
     "id": 9,
     "title": "sql server icons",
     "description": "Sql server icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/sql-server"
+    "link": "https://www.flaticon.com/free-icons/sql-server",
+    "icon": "icons/tech/sql_server.png"
   },
   {
     "id": 10,
     "title": "c sharp icons",
     "description": "C sharp icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/c-sharp"
+    "link": "https://www.flaticon.com/free-icons/c-sharp",
+    "icon": "icons/tech/c_sharp.png"
   },
   {
     "id": 11,
     "title": "unity icons",
     "description": "Unity icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/unity"
+    "link": "https://www.flaticon.com/free-icons/unity",
+    "icon": "icons/tech/unity.png"
   },
   {
     "id": 12,
     "title": "git icons",
     "description": "Git icons created by pocike - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/git"
+    "link": "https://www.flaticon.com/free-icons/git",
+    "icon": "icons/tech/git.png"
   },
   {
     "id": 13,
     "title": "github icons",
     "description": "Github icons created by Pixel perfect - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/github"
+    "link": "https://www.flaticon.com/free-icons/github",
+    "icon": "icons/contact/github.png"
   },
   {
     "id": 14,
     "title": "phone icons",
     "description": "Phone icons created by Creaticca Creative Agency - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/phone"
+    "link": "https://www.flaticon.com/free-icons/phone",
+    "icon": "icons/contact/phone.png"
   },
   {
     "id": 15,
     "title": "email icons",
     "description": "Email icons created by rukanicon - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/email"
+    "link": "https://www.flaticon.com/free-icons/email",
+    "icon": "icons/contact/email.png"
   },
   {
     "id": 16,
     "title": "linkedin icons",
     "description": "Linkedin icons created by Freepik - Flaticon",
-    "link": "https://www.flaticon.com/free-icons/linkedin"
+    "link": "https://www.flaticon.com/free-icons/linkedin",
+    "icon": "icons/contact/linkedin.png"
   }
 ]

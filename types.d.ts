@@ -63,6 +63,7 @@ export interface Attribution {
   title: string;
   description: string;
   link: string;
+  icon: string;
 }
 
 export type ListOfAttributions = Attribution[];
