@@ -22,7 +22,7 @@ export default function Credits() {
         key={selectedAttribution?.id}
         href={selectedAttribution?.link}
         target="_blank"
-        title={selectedAttribution?.title}
+        title={selectedAttribution?.link}
         className={styles.creditItem}
       >
         <h3>{selectedAttribution?.description}</h3>

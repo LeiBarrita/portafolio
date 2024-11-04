@@ -1,5 +1,10 @@
 .container {
+  height: 100svh;
   gap: var(--gap-lg);
+}
+
+.container h3 {
+  text-align: center;
 }
 
 .credits {
@@ -10,7 +15,6 @@
   justify-content: center;
   align-items: center;
   gap: var(--gap-lg);
-  /* margin: var(--gap-lg) 0; */
 }
 
 .creditItem:hover {
@@ -23,4 +27,32 @@
 
 .icon:hover {
   scale: 125%;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: var(--gap-md);
+  }
+  .credits {
+    gap: var(--gap-md);
+  }
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 475px) {
+  .container {
+    padding: var(--padding-md) 0;
+    justify-content: start;
+  }
+  .container a {
+    padding: var(--padding-sm);
+  }
+  .credits {
+    gap: var(--gap-md);
+  }
 }
