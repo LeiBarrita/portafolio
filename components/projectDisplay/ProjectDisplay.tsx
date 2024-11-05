@@ -2,7 +2,7 @@ import { Project } from "@/types";
 import styles from "./projectDisplay.module.css";
 import React, { useState } from "react";
 import ImgSlider from "../imgSlider/ImgSlider";
-import ImgBentoGrid from "../bentoGrid/BentoGrid";
+import ImgMasoryGrid from "../masoryGrid/MasoryGrid";
 
 const trimText = (text: string, length: number): string => {
   if (text.length <= length) return text;
@@ -26,7 +26,7 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
         <div className={`${styles.expandedCard} ${styles.middle}`}>
           <h2 onClick={toggleExpanded}>{project.name}</h2>
           <p>{project.description}</p>
-          <ImgBentoGrid images={project.images} />
+          <ImgMasoryGrid images={project.images} />
         </div>
       ) : (
         <>
