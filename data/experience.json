@@ -1,34 +1,66 @@
 [
-    {
-        "id": 1,
-        "startYear": 2017,
-        "startMonth": 8,
-        "endYear": 2017,
-        "endMonth": 8,
-        "experience": "Lorem ipsum lorem  a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment"
-    },
-    {
-        "id": 2,
-        "startYear": 2018,
-        "startMonth": 8,
-        "endYear": 2017,
-        "endMonth": 8,
-        "experience": "Lorem ipsum lorem  a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment"
-    },
-    {
-        "id": 3,
-        "startYear": 2019,
-        "startMonth": 8,
-        "endYear": 2017,
-        "endMonth": 8,
-        "experience": "Lorem ipsum lorem  a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment"
-    },
-    {
-        "id": 4,
-        "startYear": 2020,
-        "startMonth": 8,
-        "endYear": 2017,
-        "endMonth": 8,
-        "experience": "Lorem ipsum lorem  a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment"
-    }
+  {
+    "id": 1,
+    "startYear": 2016,
+    "startMonth": 8,
+    "endYear": 2016,
+    "endMonth": 8,
+    "experience": "I began learning the fundamentals of programming, which inspired me to pursue a technical career in mechatronics during high school."
+  },
+  {
+    "id": 2,
+    "startYear": 2017,
+    "startMonth": 8,
+    "endYear": 2018,
+    "endMonth": 8,
+    "experience": "During my technical studies, I began learning C and C++ to develop simple console applications and Arduino programs. I used these skills to solve mathematical problems, create control systems, and program basic robots. This experience ultimately led me to pursue a degree in computer systems."
+  },
+  {
+    "id": 3,
+    "startYear": 2019,
+    "startMonth": 8,
+    "endYear": 2022,
+    "endMonth": 8,
+    "experience": "At the start of my university studies, I learned the fundamentals of web development using languages like Java and JavaScript, along with essential web design technologies such as HTML and CSS. I created prototypes for both academic assignments and personal projects during my early years."
+  },
+  {
+    "id": 4,
+    "startYear": 2022,
+    "startMonth": 8,
+    "endYear": 2023,
+    "endMonth": 8,
+    "experience": "One of my projects, Ponymaps, caught the attention of my professors, who encouraged me to enhance it further. I subsequently nominated it for various exhibitions and competitions, and it won several awards. Due to its success, the institution's authorities requested that I complete the project and integrate it into the school's ecosystem."
+  },
+  {
+    "id": 5,
+    "startYear": 2023,
+    "startMonth": 8,
+    "endYear": 2023,
+    "endMonth": 8,
+    "experience": "Thanks to my professor's recommendations, I was offered an internship at Gaytan Studio. During the 5-month internship, I contributed to the design and development of a ticket management system, working with Django for the backend and React for the frontend."
+  },
+  {
+    "id": 6,
+    "startYear": 2023,
+    "startMonth": 8,
+    "endYear": 2023,
+    "endMonth": 8,
+    "experience": "Eager to learn cloud computing, I accepted an internship offer from a Spanish company called Alebat Education. There, I worked as an AWS developer, collaborating closely with the DevOps team. I implemented a multi-account landing zone and set up various AWS services, including pipelines, alarms, Lambda functions, and containers."
+  },
+  {
+    "id": 7,
+    "startYear": 2024,
+    "startMonth": 8,
+    "endYear": 2025,
+    "endMonth": 8,
+    "experience": "I graduated with a degree in software engineering at the age of 22. Throughout my studies, I gained valuable experience through various side projects, which allowed me to explore multiple fields such as mobile development and artificial intelligence and I developed a strong expertise in web development, thanks to hands-on experience from working on many other projects."
+  },
+  {
+    "id": 8,
+    "startYear": 2024,
+    "startMonth": 8,
+    "endYear": 2025,
+    "endMonth": 8,
+    "experience": "I began working at the General Prosecutor's Office of the State of Michoacán as a Full Stack Developer. I developed the ticketing system for managing complaints and joined the development team for the institution's new main administration system, the largest project I have worked on to date."
+  }
 ]

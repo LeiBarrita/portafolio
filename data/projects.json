@@ -41,6 +41,13 @@
   },
   {
     "id": 3,
+    "name": "Alebat's Landing Zone",
+    "technologies": "Next JS",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": []
+  },
+  {
+    "id": 4,
     "name": "IT Department Web Page",
     "technologies": "Next JS",
     "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
@@ -52,10 +59,43 @@
     ]
   },
   {
-    "id": 4,
-    "name": "This",
+    "id": 5,
+    "name": "Ticketing System for Complaints",
     "technologies": "Next JS",
     "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
-    "images": []
+    "images": [
+      {
+        "id": 5,
+        "link": "https://i.ibb.co/p40vz7G/African-Journey-Webshots.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Prosecutor's Office Main Administration System",
+    "technologies": "Flutter, MongoDB",
+    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "images": [
+      {
+        "id": 1,
+        "link": "https://i.ibb.co/YdmZSyS/download.jpg"
+      },
+      {
+        "id": 2,
+        "link": "https://i.ibb.co/p40vz7G/African-Journey-Webshots.jpg"
+      },
+      {
+        "id": 3,
+        "link": "https://i.ibb.co/vYX7NZc/Podcast-Bear.jpg"
+      },
+      {
+        "id": 32,
+        "link": "https://i.ibb.co/GMr603x/raccon1.jpg"
+      },
+      {
+        "id": 33,
+        "link": "https://i.ibb.co/YNMGkDX/rat1.jpg"
+      }
+    ]
   }
 ]
