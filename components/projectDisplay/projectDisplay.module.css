@@ -1,16 +1,13 @@
 .appContainer {
   display: flex;
   padding: 0 0px;
-  /* background-color: aliceblue; */
 }
 
 .projectCard {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
-  /* padding-left: 120px; */
   gap: var(--gap-md);
 }
 
@@ -21,13 +18,24 @@
   justify-content: space-between;
 }
 
+/* .cardText h2:hover {
+  font-weight: bold;
+} */
+
 .expandedCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 0;
-  /* padding-left: 120px; */
   gap: var(--gap-md);
+}
+
+.logo {
+  background-color: white;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 180px;
+  width: 180px;
 }
 
 .left {
@@ -55,7 +63,9 @@
     justify-content: center;
     padding: 0;
     gap: var(--gap-md);
-    /* background-color: aliceblue; */
+  }
+  .sideLogo {
+    display: none;
   }
   .left,
   .left h2 {

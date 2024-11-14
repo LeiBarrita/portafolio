@@ -51,6 +51,8 @@ export type ListOfAppPhotos = AppPhoto[];
 export interface Project {
   id: int;
   name: string;
+  company: string;
+  companyLogo: string;
   technologies: string;
   description: string;
   images: ListOfAppPhotos;
