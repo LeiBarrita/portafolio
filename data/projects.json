@@ -5,7 +5,11 @@
     "company": "Technological Institute of Morelia",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Itmorelia.png/200px-Itmorelia.png",
     "technologies": "Flutter, MongoDB",
-    "description": "Project develope using Flutter Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [
+      "This project was a landmark in my development journey, born out of a need to help students and visitors navigate our university's extensive campus. I led the initiative from its inception, collaborating closely with a small team to bring the vision to life. The first major challenge was gathering precise data to accurately represent the campus. This involved extensive fieldwork, where we physically traversed the grounds, collecting GPS coordinates and documenting walking paths, buildings, and landmarks. The result was a comprehensive digital map that served as the foundation for our application.",
+      "The Ponymaps app was developed using Flutter, with a focus on creating an intuitive and engaging user experience. We integrated geolocation services and used MongoDB for efficient data management, allowing users to search for specific locations, receive walking directions, and explore the campus interactively. The application quickly gained traction, garnering interest from students, faculty, and the broader academic community. Its innovative approach led to recognition in various competitions, where it received multiple awards for its utility and design.",
+      "Following its initial success, the project was embraced by the institution's administration, who requested its full integration into the school's digital ecosystem. This marked a significant achievement, validating our efforts and the potential of the solution we had built. Ponymaps was more than just a technical exercise; it was a comprehensive experience in full-cycle development, encompassing everything from conceptualization and data collection to implementation and deployment. It provided a solid foundation for my growth as a developer, honing my problem-solving skills and giving me a taste of the impact a well-executed project can have in a real-world setting."
+    ],
     "images": [
       {
         "id": 11,
@@ -39,7 +43,12 @@
     "company": "Gaytan Studio",
     "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBF0Mo3WA8qazUpWR_czLF_32E92N8ipXfIg&s",
     "technologies": "React, Django Rest API, PostgreSQL",
-    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [
+      "During my internship at Gaytan Studio, I undertook the development of a ticket management system, a project that transitioned me from academic exercises to real-world software development. It was a formative experience that involved directly engaging with client requirements and contributing to a commercial product. This opportunity allowed me to dive deep into the full stack development process, using Django for the backend and React for the frontend.",
+      "Leveraging Django's powerful framework with a Posgres database, I designed a scalable API to handle ticket data, user authentication, and backend logic. The React frontend was crafted to deliver a dynamic and responsive user experience, with a focus on simplicity and ease of use. This was my first hands-on experience gathering requirements from stakeholders, which involved participating in client meetings to understand their needs, identify pain points, and translate those into actionable technical features. The iterative process of refining and incorporating feedback was instrumental in shaping the final product.",
+      "A key focus of the project was creating an intuitive user interface. I prioritized a clean design that streamlined the ticket management process, making it accessible for both administrators and end-users. The result was a user-friendly system that received positive feedback from both the internal team and clients, who praised its functionality and ease of navigation.",
+      "This project was a pivotal learning experience, providing me with a solid foundation in full stack development and client interaction. It helped me hone my skills in building scalable web applications while underscoring the importance of user experience and responsive design in software projects."
+    ],
     "images": []
   },
   {
@@ -48,16 +57,26 @@
     "company": "Alebat Education",
     "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQEAVWUtTG-MmA/company-logo_200_200/company-logo_200_200/0/1661939039647/alebat_education_logo?e=2147483647&v=beta&t=6rTqiNcU90ydMofQrP7kK6KJUjP5mj5aoARfgst-Qes",
     "technologies": "Next JS",
-    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [
+      "During my internship at Alebat Education, I immersed myself in the world of cloud computing, working as part of the DevOps team to implement scalable, secure infrastructure on AWS. This role was a comprehensive introduction to modern cloud practices, focusing on building a robust multi-account landing zone that would support the organization’s various projects and environments.",
+      "One of my primary responsibilities was helping establish the multi-account landing zone using AWS Organizations. This approach provided a streamlined method for managing resources across different environments, allowing us to maintain clear separation of concerns and optimize resource usage while enhancing overall security. By setting up a centralized cloud infrastructure, we improved scalability and facilitated better management of permissions and access controls across multiple AWS accounts.",
+      "I extensively utilized a variety of AWS services throughout the project. CloudWatch and CloudTrail were configured for real-time monitoring and auditing, providing visibility into system performance and user activities. To streamline the software release process, I implemented CI/CD pipelines using AWS CodePipeline, reducing manual intervention and accelerating deployment cycles. I also developed Lambda functions to automate key tasks such as error handling, data processing, and system notifications, significantly enhancing system responsiveness and efficiency. Additionally, I managed storage solutions with S3, configured virtual servers using EC2, and deployed containerized applications with ECS, ensuring scalable and resilient hosting capabilities.",
+      "Collaboration was a key aspect of this role, and working closely with the DevOps team, I contributed to improving our deployment processes and system reliability. I implemented automated email notifications to alert the team about critical system events like deployment failures or performance issues, enabling a proactive response to potential problems. Furthermore, I focused on optimizing error filtering during deployments, developing processes to analyze logs and categorize issues quickly. This effort reduced troubleshooting time and streamlined error resolution, minimizing system downtime.",
+      "This internship was a transformative experience, solidifying my foundation in cloud computing and DevOps practices. It enhanced my skills in setting up scalable infrastructure, utilizing a wide array of AWS services, and delivering automated solutions in a dynamic business environment."
+    ],
     "images": []
   },
   {
     "id": 4,
-    "name": "IT Department Web Page",
+    "name": "ITM Department Web Page",
     "company": "Technological Institute of Morelia",
     "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Itmorelia.png/200px-Itmorelia.png",
     "technologies": "Next JS",
-    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [
+      "This Landing Page project was a simple yet impactful task aimed at refreshing an outdated web page for the Technological Institute of Morelia. Developed in collaboration with a friend, the project was a request from a professor with the goal to modernize the design and improve the functionality of the page, making it more accessible and user-friendly for students and visitors seeking department information.",
+      "The challenge was to enhance the existing landing page without a full redesign. The project involved updating the visual aesthetics, improving the layout, and ensuring the page was both functional and easy to navigate. We chose Next.js for its fast performance and SEO-friendly capabilities, which helped deliver a page that loaded quickly and was fully responsive across various devices. The design was kept minimal yet functional, prioritizing ease of use while maintaining a professional look that accurately represented the department’s activities and initiatives.",
+      "Although the project had a short timeline, it allowed me to apply my knowledge of web development in a live setting. The experience was particularly rewarding because it combined technical and practical skills, resulting in a solution that met both functional and aesthetic needs. The successful completion of this project not only provided value to the ITM community but also served as an opportunity for me to contribute to an educational institution’s digital presence, further enhancing my abilities in web development."
+    ],
     "images": [
       {
         "id": 41,
@@ -95,7 +114,12 @@
     "company": "General Prosecutor's Office of the State of Michoacán",
     "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JradUL2pEb9naVy2YvKmGaQo_UK1sWmP1QoFImIwAdSsi90HV39mhVZoszxlTtv08hQ&usqp=CAU",
     "technologies": "Next JS",
-    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [
+      "I developed a comprehensive Ticketing System API for the Prosecutor's Office of the State of Michoacán to streamline the management of complaints within the institution. The system aimed to improve communication between various internal modules while maintaining complex business logic for complaint tracking, updates, and management. By implementing this API, the institution was able to enhance its digital infrastructure and improve workflow efficiency across departments, ultimately fostering a more effective complaint resolution process.",
+      "Built using .NET, the API provided a stable, secure backend solution to manage the ticketing process. To ensure real-time updates, I integrated WebSockets, enabling immediate notifications for users and administrators regarding the status changes, updates, or resolutions of complaints. This real-time capability played a crucial role in keeping all stakeholders informed, enhancing responsiveness, and improving user experience. Additionally, by developing the API in-house, the project significantly reduced operational costs by eliminating the need for expensive third-party services for real-time communication.",
+      "The system was designed to seamlessly integrate with the Prosecutor’s Office existing infrastructure, particularly their IIS setup, ensuring smooth deployment and compatibility with other internal systems. I also developed a simple Next.js frontend that displayed the complaint queue for the general public, allowing users to check the status of their complaints and manage their expectations in real-time. The frontend was lightweight, fast, and responsive, offering a streamlined interface to improve the user experience during the complaint submission process.",
+      "This project not only modernized the institution's complaint management system but also demonstrated my ability to handle full-stack development, from backend API creation to frontend design, while addressing integration challenges. It required careful consideration of the existing infrastructure, ensuring effortless communication between the ticketing system and other organizational services. Through this project, I gained valuable experience in cost optimization, system design, and seamless integration within an institutional ecosystem."
+    ],
     "images": []
   },
   {
@@ -104,7 +128,7 @@
     "company": "General Prosecutor's Office of the State of Michoacán",
     "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JradUL2pEb9naVy2YvKmGaQo_UK1sWmP1QoFImIwAdSsi90HV39mhVZoszxlTtv08hQ&usqp=CAU",
     "technologies": "Flutter, MongoDB",
-    "description": "Lorem ipsum lorem a multi-account system on AWS for a landing zone. Created and documented multiple Lambdas and alarms in CloudWatch to monitor the deployments of multiple projects Implemented automatiozations for a DevOps environment",
+    "paragraphs": [],
     "images": []
   }
 ]

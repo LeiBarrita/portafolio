@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
-  gap: var(--gap-md);
+  gap: var(--gap-lg);
 }
 
 .cardText {
@@ -30,22 +30,40 @@
   gap: var(--gap-md);
 }
 
-.logo {
-  background-color: white;
+.sideLogo {
+  /* background-color: white; */
   border-radius: 10px;
   object-fit: cover;
   height: 180px;
   width: 180px;
 }
 
+.bodyLogo {
+  background-color: white;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  display: none;
+}
+
+.cardBody {
+  display: flex;
+  gap: var(--gap-lg);
+}
+
+.cardBody p {
+  text-align: left;
+}
+
 .left {
-  padding-right: 100px;
+  /* padding-left: 100px; */
   text-align: start;
 }
 
-.left h2 {
+/* .left h2 {
   align-self: start;
-}
+} */
 
 .middle {
   text-align: center;
@@ -66,6 +84,9 @@
   }
   .sideLogo {
     display: none;
+  }
+  .bodyLogo {
+    display: block;
   }
   .left,
   .left h2 {

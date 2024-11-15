@@ -54,7 +54,7 @@ export interface Project {
   company: string;
   companyLogo: string;
   technologies: string;
-  description: string;
+  paragraphs: string[];
   images: ListOfAppPhotos;
 }
 

@@ -1,11 +1,11 @@
 import { Project } from "@/types";
 import styles from "./projectDisplay.module.css";
 import React, { useState } from "react";
-import ImgSlider from "../imgSlider/ImgSlider";
 import ImgMasoryGrid from "../masoryGrid/MasoryGrid";
 import Image from "next/image";
 
 const trimText = (text: string, length: number): string => {
+  if (!text) return "";
   if (text.length <= length) return text;
 
   const trimedText = text.substring(0, length);
@@ -26,15 +26,13 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
       {isExpanded ? (
         <div className={`${styles.expandedCard} ${styles.middle}`}>
           <h2 onClick={toggleExpanded}>{project.name}</h2>
-          <p>{project.description}</p>
+          {project.paragraphs.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
           <ImgMasoryGrid images={project.images} />
         </div>
       ) : (
         <div className={`${styles.projectCard} `}>
-          <div className={`${styles.cardText} ${styles.left}`}>
-            <h2 onClick={toggleExpanded}>{project.name}</h2>
-            <p>{trimText(project.description, 250)}</p>
-          </div>
           <Image
             className={styles.sideLogo}
             width={100}
@@ -42,6 +40,21 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
             src={project.companyLogo}
             alt="Company logo"
           />
+          <div className={`${styles.cardText} ${styles.left}`}>
+            <h2 onClick={toggleExpanded}>{project.name}</h2>
+            <div className={styles.cardBody}>
+              <Image
+                className={styles.bodyLogo}
+                width={100}
+                height={100}
+                src={project.companyLogo}
+                alt="Company logo"
+              />
+              <p>
+                {project.paragraphs && trimText(project.paragraphs[0], 300)}
+              </p>
+            </div>
+          </div>
         </div>
       )}
     </div>
