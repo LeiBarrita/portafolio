@@ -39,7 +39,7 @@
 }
 
 .bodyLogo {
-  background-color: white;
+  /* background-color: white; */
   object-fit: cover;
   border-radius: 10px;
   height: 150px;
