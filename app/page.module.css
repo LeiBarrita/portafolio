@@ -45,16 +45,16 @@
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   background-color: var(--accent-color);
   width: 10px;
   height: 100%;
   position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 10px;
-	height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -93,8 +93,8 @@
 
 @media (max-width: 768px) {
   .image {
-      width: 200px;
-      height: 200px;
+    width: 200px;
+    height: 200px;
   }
   .skills {
     justify-content: space-around;
@@ -120,8 +120,8 @@
     text-align: center;
   }
   .image {
-      width: 250px;
-      height: 250px;
+    width: 250px;
+    height: 250px;
   }
   .tags {
     gap: var(--gap-sm);
@@ -129,13 +129,13 @@
 }
 
 @media (max-width: 475px) {
-  .profileContainer, 
+  .profileContainer,
   .infoContainer {
     gap: var(--gap-sm);
   }
   .image {
-      width: 80%;
-      height: auto;
+    width: 80%;
+    height: auto;
   }
   .tags {
     display: none;
@@ -150,5 +150,24 @@
   .contact {
     flex-wrap: wrap;
     gap: var(--gap-sm);
+  }
+}
+
+@media (min-width: 641px) and (max-aspect-ratio: 8/9) {
+  .profileContainer {
+    height: 600px;
+  }
+}
+
+@media (max-width: 640px) and (max-aspect-ratio: 1/2) {
+  .profileContainer {
+    height: 100lvh;
+  }
+}
+
+@media (max-width: 475px) and (max-aspect-ratio: 4/9) {
+  .profileContainer {
+    height: fit-content;
+    padding: 60px 0;
   }
 }

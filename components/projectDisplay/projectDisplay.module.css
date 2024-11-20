@@ -16,6 +16,7 @@
   height: 100%;
   flex-direction: column;
   justify-content: space-between;
+  /* text-align: center; */
 }
 
 /* .cardText h2 {
@@ -96,8 +97,9 @@
   }
   .cardText {
     justify-content: center;
-    padding: 0;
+    text-align: center;
     gap: var(--gap-md);
+    padding: 0;
   }
   .sideLogo {
     display: none;
@@ -122,12 +124,23 @@
   .cardBody {
     flex-direction: column-reverse;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
+  }
+  .cardBody p {
+    text-align: center;
   }
 }
 
 @media (max-width: 475px) {
   .cardText {
     padding: 0 var(--padding-sm);
+  }
+  .bodyLogo {
+    width: 50%;
+    height: auto;
+  }
+  .expandedCard {
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
   }
 }
