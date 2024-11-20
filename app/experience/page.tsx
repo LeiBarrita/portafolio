@@ -1,7 +1,7 @@
 "use client";
 
 import "./styles.css";
-import styles from "./portafolio.module.css";
+import styles from "./experience.module.css";
 import { useEffect } from "react";
 import projectsJson from "../../data/projects.json";
 import { ListOfProjects } from "@/types";
