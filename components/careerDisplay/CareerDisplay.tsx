@@ -1,7 +1,7 @@
 import { ExperienceEvent } from "@/types";
-import styles from "./experienceDisplay.module.css";
+import styles from "./CareerDisplay.module.css";
 
-const ExperienceDisplay = ({ experience }: { experience: ExperienceEvent }) => {
+const CareerDisplay = ({ experience }: { experience: ExperienceEvent }) => {
   return (
     <div className={styles.experienceContainer}>
       <h3 className={styles.date}>{experience.startYear}</h3>
@@ -10,4 +10,4 @@ const ExperienceDisplay = ({ experience }: { experience: ExperienceEvent }) => {
   );
 };
 
-export default ExperienceDisplay;
+export default CareerDisplay;

@@ -24,15 +24,24 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
   return (
     <div className={styles.appContainer}>
       {isExpanded ? (
-        <div className={`${styles.expandedCard} ${styles.middle}`}>
+        <div className={`${styles.expandedCard}`}>
           <h2 onClick={toggleExpanded}>{project.name}</h2>
           {project.paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
-          <ImgMasoryGrid images={project.images} />
+          {project.images.length > 0 && (
+            <ImgMasoryGrid images={project.images} />
+          )}
+          <Image
+            className={styles.expandedLogo}
+            width={100}
+            height={100}
+            src={project.companyLogo}
+            alt="Company logo"
+          />
         </div>
       ) : (
-        <div className={`${styles.projectCard} `}>
+        <div className={styles.projectCard}>
           <Image
             className={styles.sideLogo}
             width={100}
@@ -40,7 +49,7 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
             src={project.companyLogo}
             alt="Company logo"
           />
-          <div className={`${styles.cardText} ${styles.left}`}>
+          <div className={styles.cardText}>
             <h2 onClick={toggleExpanded}>{project.name}</h2>
             <div className={styles.cardBody}>
               <Image

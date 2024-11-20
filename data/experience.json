@@ -37,7 +37,7 @@
     "startMonth": 8,
     "endYear": 2023,
     "endMonth": 8,
-    "experience": "Thanks to my professor's recommendations, I was offered an internship at Gaytan Studio. During the 5-month internship, I contributed to the design and development of a ticket management system, working with Django for the backend and React for the frontend."
+    "experience": "Thanks to my professor's recommendations, I was offered an internship at Gaytan Studio. During the 5 month internship, I contributed to the design and development of a ticket management system, working with Django for the backend and React for the frontend."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "startMonth": 8,
     "endYear": 2023,
     "endMonth": 8,
-    "experience": "Eager to learn cloud computing, I accepted an internship offer from a Spanish company called Alebat Education. There, I worked as an AWS developer, collaborating closely with the DevOps team. I implemented a multi-account landing zone and set up various AWS services, including pipelines, alarms, Lambda functions, and containers."
+    "experience": "Eager to learn cloud computing, I accepted an internship offer from a Spanish company called Alebat Education. There, I worked as an AWS developer, collaborating as part of the DevOps team. I worked in a multi-account landing zone and set up various AWS services, including pipelines, alarms, Lambda functions, and containers."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "startMonth": 8,
     "endYear": 2025,
     "endMonth": 8,
-    "experience": "I graduated with a degree in software engineering at the age of 22. Throughout my studies, I gained valuable experience through various side projects, which allowed me to explore multiple fields such as mobile development and artificial intelligence and I developed a strong expertise in web development, thanks to hands-on experience from working on many other projects."
+    "experience": "I received my degree in software engineering at the age of 22. I gained invaluable experience through the many side projects and internships that I took, which allowed me to explore multiple fields such as mobile development, artificial intelligence, cloud computing and a strong expertise in web development, thanks to hands-on experience."
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "startMonth": 8,
     "endYear": 2025,
     "endMonth": 8,
-    "experience": "I began working at the General Prosecutor's Office of the State of Michoacán as a Full Stack Developer. I developed the ticketing system for managing complaints and joined the development team for the institution's new main administration system, the largest project I have worked on to date."
+    "experience": "I began working at the General Prosecutor's Office of the State of Michoacán as a Full Stack Developer. I developed a ticketing system for managing complaints and joined the development team for the institution's new main administration system, the largest project I have worked on to date."
   }
 ]

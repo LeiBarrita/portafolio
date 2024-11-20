@@ -18,7 +18,7 @@ import contactJson from "../data/contact.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
-import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
+import CareerDisplay from "@/components/careerDisplay/CareerDisplay";
 import ContactIcon from "@/components/contactIcon/ContactIcon";
 
 export default function Home() {
@@ -88,7 +88,7 @@ export default function Home() {
               key={experience.id}
               className={index % 2 === 0 ? "self-right" : "self-left"}
             >
-              <ExperienceDisplay experience={experience} />
+              <CareerDisplay experience={experience} />
             </div>
           ))}
         </div>
