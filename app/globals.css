@@ -1,251 +1,262 @@
 :root {
-	--primary-color: #D5DBCE;
-	--secondary-color: #191919;
-	--tertiary-color: #7B9080;
-	--accent-color: #8F8861;
+  --primary-color: #d5dbce;
+  --secondary-color: #191919;
+  --tertiary-color: #7b9080;
+  --accent-color: #8f8861;
 
-	--section-max-w: 970px;
+  --section-max-w: 970px;
 
-	--margin-sm: 100px;
+  --margin-sm: 100px;
 
-	--padding-lg: 3rem;
-	--padding-md: 2rem;
-	--padding-sm: 1rem;
+  --padding-lg: 3rem;
+  --padding-md: 2rem;
+  --padding-sm: 1rem;
 
-	--gap-lg: 50px;
-	--gap-md: 30px;
-	--gap-sm: 16px;
+  --gap-lg: 50px;
+  --gap-md: 30px;
+  --gap-sm: 16px;
 }
 
 ::-webkit-scrollbar {
-	width: 12px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-	background: transparent;
-}  
+  background: transparent;
+}
 
 ::-webkit-scrollbar-thumb {
-	background: var(--tertiary-color);
-	border-radius: 12px;
+  background: var(--tertiary-color);
+  border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: var(--accent-color);
+  background: var(--accent-color);
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
 }
 
 html {
-	height: 100%;
-	scrollbar-gutter: stable both-edges;
+  height: 100%;
+  scrollbar-gutter: stable both-edges;
 }
 
 body {
-	background-color: var(--primary-color);
-	min-height: 100lvh;
-	display: flex;
-	flex-direction: column;
+  background-color: var(--primary-color);
+  min-height: 100lvh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-h1, h4 {
-	color: var(--secondary-color);
+h1,
+h4 {
+  color: var(--secondary-color);
 }
 
-h2, p {
-	color: var(--accent-color);
+h2,
+p {
+  color: var(--accent-color);
 }
 
 h3 {
-	color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 h1 {
-	font-size: 4.3rem;
-	text-transform: uppercase;
+  font-size: 4.3rem;
+  text-transform: uppercase;
 }
 
 h2 {
-	font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 h3 {
-	font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 
 h4 {
-	font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 p {
-	font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
-	position: relative;
-	max-width: 1536px;
-	margin: 0 auto;
-	padding: 0 var(--padding-lg);
+  position: relative;
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 var(--padding-lg);
 }
 
 .full-section {
-	width: 100%;
-	padding: calc(2 * var(--padding-lg)) var(--padding-lg);
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	gap: var(--gap-lg);
+  width: 100%;
+  padding: calc(2 * var(--padding-lg)) var(--padding-lg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--gap-lg);
 }
 
 .section {
-	padding: calc(2 * var(--padding-lg));
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	gap: var(--gap-lg);
+  padding: calc(2 * var(--padding-lg));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--gap-lg);
 }
 
 .secondary-section {
-	position: relative;
+  position: relative;
 }
 
 .secondary-section::before {
-	content: '';
-	background-color: var(--secondary-color);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100vw;
-	height: 100%;
-	z-index: -1;
+  content: "";
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
 }
 
 .self-right {
-	align-self: flex-start;
+  align-self: flex-start;
+  text-align: right;
 }
 
 .self-left {
-	align-self: flex-end;
+  align-self: flex-end;
+  text-align: left;
 }
 
 /* Responsive Font Sizes */
 @media (max-width: 1024px) {
-	h1 {
-		font-size: 3rem;
-	}
-	h2 {
-		font-size: 2.4rem;
-	}
-	h3 {
-		font-size: 2rem;
-	}
-	h4 {
-		font-size: 1.8rem;
-	}
-	p {
-		font-size: 1.2rem;
-	}
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 768px) {
-	h1 {
-		font-size: 2.4rem;
-	}
-	h2 {
-		font-size: 2rem;
-	}
-	h3 {
-		font-size: 1.6rem;
-	}
-	h4 {
-		font-size: 1.4rem;
-	}
-	p {
-		font-size: 1rem;
-	}
+  h1 {
+    font-size: 2.4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
 
 /* Responsive Container */
 @media (max-width: 1536px) {
-	.container {
-		max-width: 1280px;
-	}
+  .container {
+    max-width: 1280px;
+  }
 }
 
 @media (max-width: 1280px) {
-	.container {
-		max-width: 1024px;
-	}
+  .container {
+    max-width: 1024px;
+  }
 }
 
 @media (max-width: 1024px) {
-	.container {
-		max-width: 768px;
-	}
+  .container {
+    max-width: 768px;
+  }
 }
 
 @media (max-width: 768px) {
-	.container {
-		max-width: 640px;
-	}
-	.section {
-		padding: calc(2 * var(--padding-md)) 0;
-	}
+  .container {
+    max-width: 640px;
+  }
+  .section {
+    padding: calc(2 * var(--padding-md)) 0;
+  }
+  .self-right {
+    text-align: center;
+  }
+  .self-left {
+    text-align: center;
+  }
 }
 
 @media (max-width: 640px) {
-	.container {
-		max-width: 475px;
-	}
+  .container {
+    max-width: 475px;
+  }
 }
 
 @media (max-width: 475px) {
-	.container {
-		padding: var(--padding-sm);
-		padding-bottom: 0;
-	}
-	.section {
-		padding-left: var(--padding-sm);
-		padding-right: var(--padding-sm);
-	}
-	h1 {
-		font-size: 2.8rem;
-	}
-	h2 {
-		font-size: 2.2rem;
-	}
-	h3 {
-		font-size: 1.8rem;
-	}
-	h4 {
-		font-size: 1.6rem;
-	}
-	p {
-		font-size: 1.2rem;
-	}
+  .container {
+    padding: var(--padding-sm);
+    padding-bottom: 0;
+  }
+  .section {
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
 }

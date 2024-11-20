@@ -6,11 +6,11 @@ import profileImg from "../public/profile.png";
 import {
   Info,
   ListOfContactInfo,
-  ListOfExperienceEvents,
+  ListOfCareerEvents,
   ListOfSkills,
   ListOfSkillTypes,
 } from "@/types";
-import experiencesJson from "../data/experience.json";
+import experiencesJson from "../data/careerPath.json";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import infoJson from "../data/info.json";
@@ -22,7 +22,7 @@ import CareerDisplay from "@/components/careerDisplay/CareerDisplay";
 import ContactIcon from "@/components/contactIcon/ContactIcon";
 
 export default function Home() {
-  const experiences = experiencesJson as ListOfExperienceEvents;
+  const experiences = experiencesJson as ListOfCareerEvents;
   const skillTypes = skillTypesJson as ListOfSkillTypes;
   const contactInfo = contactJson as ListOfContactInfo;
   const skills = skillsJson as ListOfSkills;

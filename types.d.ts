@@ -20,16 +20,16 @@ export interface skillType {
 
 export type ListOfSkillTypes = SkillTypes[];
 
-export interface ExperienceEvent {
+export interface CareerEvent {
   id: int;
-  startYear: int;
-  startMonth: int;
-  endYear: int;
-  endMonth: int;
+  startYear: string;
+  startMonth: string;
+  endYear: string;
+  endMonth: string;
   experience: string;
 }
 
-export type ListOfExperienceEvents = ExperienceEvent[];
+export type ListOfCareerEvents = CareerEvent[];
 
 export interface ContactInfo {
   id: int;
