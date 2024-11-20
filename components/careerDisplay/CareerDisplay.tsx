@@ -1,5 +1,5 @@
 import { CareerEvent } from "@/types";
-import styles from "./CareerDisplay.module.css";
+import styles from "./careerDisplay.module.css";
 
 const CareerDisplay = ({ experience }: { experience: CareerEvent }) => {
   return (
