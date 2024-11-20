@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "startYear": "2016",
+    "startMonth": "Aug",
+    "endYear": "2016",
+    "endMonth": "8",
+    "experience": "I began learning the fundamentals of programming, which inspired me to pursue a technical career in mechatronics during high school."
+  },
+  {
+    "id": 2,
+    "startYear": "2017",
+    "startMonth": "Aug",
+    "endYear": "2018",
+    "endMonth": "8",
+    "experience": "During my technical studies, I began learning C and C++ to develop simple console applications and Arduino programs. I used these skills to solve mathematical problems, create control systems, and program basic robots. This experience ultimately led me to pursue a degree in computer systems."
+  },
+  {
+    "id": 3,
+    "startYear": "2019",
+    "startMonth": "Aug",
+    "endYear": "2022",
+    "endMonth": "8",
+    "experience": "At the start of my university studies, I learned the fundamentals of web development using languages like Java and JavaScript, along with essential web design technologies such as HTML and CSS. I created prototypes for both academic assignments and personal projects during my early years."
+  },
+  {
+    "id": 4,
+    "startYear": "2022",
+    "startMonth": "Feb",
+    "endYear": "2023",
+    "endMonth": "8",
+    "experience": "One of my projects, Ponymaps, caught the attention of my professors, who encouraged me to enhance it further. I subsequently nominated it for various exhibitions and competitions, and it won several awards. Due to its success, the institution's authorities requested that I complete the project and integrate it into the school's ecosystem."
+  },
+  {
+    "id": 5,
+    "startYear": "2023",
+    "startMonth": "Jan",
+    "endYear": "2023",
+    "endMonth": "8",
+    "experience": "Thanks to my professor's recommendations, I was offered an internship at Gaytan Studio. During the 5 month internship, I contributed to the design and development of a ticket management system, working with Django for the backend and React for the frontend."
+  },
+  {
+    "id": 6,
+    "startYear": "2023",
+    "startMonth": "Aug",
+    "endYear": "2023",
+    "endMonth": "8",
+    "experience": "Eager to learn cloud computing, I accepted an internship offer from a Spanish company called Alebat Education. There, I worked as an AWS developer, collaborating as part of the DevOps team. I worked in a multi-account landing zone and set up various AWS services, including pipelines, alarms, Lambda functions, and containers."
+  },
+  {
+    "id": 7,
+    "startYear": "2024",
+    "startMonth": "Apr",
+    "endYear": "2025",
+    "endMonth": "8",
+    "experience": "I received my degree in software engineering at the age of 22. I gained invaluable experience through the many side projects and internships that I took, which allowed me to explore multiple fields such as mobile development, artificial intelligence, cloud computing and a strong expertise in web development, thanks to hands-on experience."
+  },
+  {
+    "id": 8,
+    "startYear": "2024",
+    "startMonth": "Feb",
+    "endYear": "2025",
+    "endMonth": "8",
+    "experience": "I began working at the General Prosecutor's Office of the State of Michoacán as a Full Stack Developer. There I developed a ticketing system for managing complaints and joined the development team for the institution's new main administration system, the largest project I have worked on to date."
+  }
+]

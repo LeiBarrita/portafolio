@@ -21,10 +21,10 @@ export default function Portafolio() {
   return (
     <main className={styles.main}>
       <div className={`${styles.primarySection} ${styles.topSection}`}>
-        <h1>Projects</h1>
+        <h1>Experience</h1>
       </div>
 
-      {projects.map((project) => (
+      {projects.toReversed().map((project) => (
         <div key={project.id}>
           <ProjectDisplay project={project} />
           <div className={`${styles.primarySection}`} />

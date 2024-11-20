@@ -6,11 +6,11 @@ import profileImg from "../public/profile.png";
 import {
   Info,
   ListOfContactInfo,
-  ListOfExperienceEvents,
+  ListOfCareerEvents,
   ListOfSkills,
   ListOfSkillTypes,
 } from "@/types";
-import experiencesJson from "../data/experience.json";
+import experiencesJson from "../data/careerPath.json";
 import skillTypesJson from "../data/skillsCatalog.json";
 import skillsJson from "../data/skills.json";
 import infoJson from "../data/info.json";
@@ -18,11 +18,11 @@ import contactJson from "../data/contact.json";
 import Tag from "@/components/tag/Tag";
 import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
-import ExperienceDisplay from "@/components/experienceDisplay/ExperienceDisplay";
+import CareerDisplay from "@/components/careerDisplay/CareerDisplay";
 import ContactIcon from "@/components/contactIcon/ContactIcon";
 
 export default function Home() {
-  const experiences = experiencesJson as ListOfExperienceEvents;
+  const experiences = experiencesJson as ListOfCareerEvents;
   const skillTypes = skillTypesJson as ListOfSkillTypes;
   const contactInfo = contactJson as ListOfContactInfo;
   const skills = skillsJson as ListOfSkills;
@@ -88,7 +88,7 @@ export default function Home() {
               key={experience.id}
               className={index % 2 === 0 ? "self-right" : "self-left"}
             >
-              <ExperienceDisplay experience={experience} />
+              <CareerDisplay experience={experience} />
             </div>
           ))}
         </div>

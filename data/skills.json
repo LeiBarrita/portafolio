@@ -24,12 +24,6 @@
     "skillTypeId": 1
   },
   {
-    "id": 5,
-    "name": "Bootstrap",
-    "icon": "icons/tech/bootstrap.png",
-    "skillTypeId": 1
-  },
-  {
     "id": 6,
     "name": "Tailwind",
     "icon": "icons/tech/tailwind.png",
@@ -77,12 +71,6 @@
     "name": "PHP",
     "icon": "icons/tech/php.png",
     "skillTypeId": 2
-  },
-  {
-    "id": 40,
-    "name": "PostgreSQL",
-    "icon": "icons/tech/postgresql.png",
-    "skillTypeId": 3
   },
   {
     "id": 41,
