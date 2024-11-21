@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <footer className={`${styles.footer} secondary-section`}>
       <Link href="/">Home</Link>
-      <Link href="/experience">Experience</Link>
+      <Link scroll={false} prefetch={false} href="/experience">
+        Experience
+      </Link>
       <Link href="/#home-contact">Contact</Link>
       <Link href="/credits">Credits</Link>
       {/* <Link href="/">Spanish</Link> */}
