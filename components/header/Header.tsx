@@ -6,7 +6,9 @@ const Header = () => {
     <header className={`${styles.header} ${styles.separation}`}>
       <Link href="/">Uziel Barrita</Link>
       <div className={styles.separation}>
-        <Link href="/experience">Experience</Link>
+        <Link scroll={false} prefetch={false} href="/experience">
+          Experience
+        </Link>
         <Link href="/#home-contact">Contact</Link>
         {/* <Link href="">Spanish</Link> */}
       </div>

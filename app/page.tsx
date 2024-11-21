@@ -41,12 +41,12 @@ export default function Home() {
     <main>
       <div className={styles.profileContainer}>
         <Image
-          className={styles.image}
+          className={`${styles.image} appear-slide-right`}
           objectFit="cover"
           src={profileImg}
           alt="My picture"
         />
-        <div className={styles.infoContainer}>
+        <div className={`${styles.infoContainer} appear-slide-left`}>
           <div>
             <h1>{info.name}</h1>
             <h1>{info.lastName}</h1>
@@ -57,7 +57,7 @@ export default function Home() {
 
       <div className={`secondary-section section`}>
         <h2>ABOUT ME</h2>
-        <p className={styles.text}>{info.aboutMe}</p>
+        <p className={`${styles.text} scroll-slide-right`}>{info.aboutMe}</p>
       </div>
 
       <div className="section">
@@ -86,7 +86,11 @@ export default function Home() {
           {experiences.toReversed().map((experience, index) => (
             <div
               key={experience.id}
-              className={index % 2 === 0 ? "self-right" : "self-left"}
+              className={
+                index % 2 === 0
+                  ? "self-right scroll-slide-right"
+                  : "self-left scroll-slide-left"
+              }
             >
               <CareerDisplay experience={experience} />
             </div>
@@ -96,7 +100,7 @@ export default function Home() {
 
       <div className="section" id="home-contact">
         <h1>CONTACT</h1>
-        <div className={styles.contact}>
+        <div className={`${styles.contact} scroll-slide-left`}>
           {contactInfo.map((contact) => (
             <ContactIcon key={contact.id} contactInfo={contact} />
           ))}
