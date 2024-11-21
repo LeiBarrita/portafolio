@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <header className={`${styles.header} ${styles.separation}`}>
+    <header className={`${styles.header} ${styles.separation} link-shine`}>
       <Link href="/">Uziel Barrita</Link>
       <div className={styles.separation}>
         <Link scroll={false} prefetch={false} href="/experience">

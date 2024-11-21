@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={`${styles.footer} secondary-section`}>
+    <footer className={`${styles.footer} secondary-section link-shine`}>
       <Link href="/">Home</Link>
       <Link scroll={false} prefetch={false} href="/experience">
         Experience

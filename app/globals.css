@@ -179,6 +179,21 @@ a {
   animation-range: entry 0% cover 20%;
 }
 
+.link-shine a:hover {
+  scale: 105%;
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--primary-color),
+    var(--accent-color)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 2s linear infinite;
+}
+
 @keyframes grow {
   from {
     opacity: 0;
@@ -220,6 +235,12 @@ a {
   to {
     opacity: 1;
     clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes gradient-animation {
+  to {
+    background-position: -200%;
   }
 }
 
@@ -312,6 +333,9 @@ a {
     padding-left: var(--padding-sm);
     padding-right: var(--padding-sm);
     text-align: left;
+  }
+  .full-section {
+    padding: calc(2 * var(--padding-md)) var(--padding-sm);
   }
   .self-right {
     text-align: left;
