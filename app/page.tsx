@@ -46,12 +46,12 @@ export default function Home() {
     <main>
       <div className={styles.profileContainer}>
         <Image
-          className={`${styles.image} appear-slide-right`}
+          className={`${styles.image} appear-slide-left`}
           objectFit="cover"
           src={profileImg}
           alt="My picture"
         />
-        <div className={`${styles.infoContainer} appear-slide-left`}>
+        <div className={`${styles.infoContainer} appear-slide-right`}>
           <div>
             <h1>{info.name}</h1>
             <h1>{info.lastName}</h1>
@@ -60,12 +60,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`secondary-section section`}>
+      <div className={`secondary-section section appear-slide-right`}>
         <h2>ABOUT ME</h2>
         <p className={`${styles.text} scroll-slide-left`}>{info.aboutMe}</p>
       </div>
 
-      <div className="section">
+      <div className="section appear-slide-right">
         <h1>SKILLS</h1>
         <div className={styles.tags}>
           <Tag type="All" onClick={() => handleSkillsFilter(0)} />
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="secondary-section full-section">
+      <div className="secondary-section full-section appear-slide-right">
         <h2 onClick={toggleTimeline}>RESUME</h2>
         <p
           className={`${styles.timelineTag} hover-shine`}
@@ -125,7 +125,7 @@ export default function Home() {
         )}
       </div>
 
-      <div className="section" id="home-contact">
+      <div className="section appear-slide-right" id="home-contact">
         <h1>CONTACT</h1>
         <div className={`${styles.contact} scroll-slide-left`}>
           {contactInfo.map((contact) => (

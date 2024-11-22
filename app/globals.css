@@ -161,11 +161,11 @@ a {
 
 /*#region Animations*/
 
-.appear-slide-right {
+.appear-slide-left {
   animation: slide-right 0.6s;
 }
 
-.appear-slide-left {
+.appear-slide-right {
   animation: slide-left 0.6s;
 }
 

@@ -24,8 +24,11 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
   return (
     <div className={styles.appContainer}>
       {isExpanded ? (
-        <div className={`${styles.expandedCard}`}>
-          <h2 className={styles.hoverExpandedCard} onClick={toggleExpanded}>
+        <div className={`${styles.expandedCard} appear-slide-left`}>
+          <h2
+            className={`${styles.hoverExpandedCard}`}
+            onClick={toggleExpanded}
+          >
             {project.name}
           </h2>
           {project.paragraphs.map((paragraph, index) => (
@@ -40,30 +43,34 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
             height={100}
             src={project.companyLogo}
             alt="Company logo"
+            onClick={toggleExpanded}
           />
         </div>
       ) : (
         <div className={styles.projectCard}>
           <Image
-            className={styles.sideLogo}
+            className={`${styles.sideLogo} appear-slide-left`}
             width={100}
             height={100}
             src={project.companyLogo}
             alt="Company logo"
           />
           <div className={styles.cardText}>
-            <h2 className={`${styles.hoverCardTitle}`} onClick={toggleExpanded}>
+            <h2
+              className={`${styles.hoverCardTitle} appear-slide-right`}
+              onClick={toggleExpanded}
+            >
               {project.name}
             </h2>
             <div className={styles.cardBody}>
               <Image
-                className={styles.bodyLogo}
+                className={`${styles.bodyLogo} appear-slide-left`}
                 width={100}
                 height={100}
                 src={project.companyLogo}
                 alt="Company logo"
               />
-              <p>
+              <p className="appear-slide-right">
                 {project.paragraphs && trimText(project.paragraphs[0], 300)}
               </p>
             </div>
