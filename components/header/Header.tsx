@@ -3,14 +3,23 @@ import styles from "./header.module.css";
 
 const Header = () => {
   return (
-    <header className={`${styles.header} ${styles.separation} link-shine`}>
-      <Link href="/">Uziel Barrita</Link>
+    <header className={`${styles.header} ${styles.separation}`}>
+      <Link className="hover-shine hover-grow" href="/">
+        Uziel Barrita
+      </Link>
       <div className={styles.separation}>
-        <Link scroll={false} prefetch={false} href="/experience">
+        <Link
+          className="hover-shine hover-grow"
+          scroll={false}
+          prefetch={false}
+          href="/experience"
+        >
           Experience
         </Link>
-        <Link href="/#home-contact">Contact</Link>
-        {/* <Link href="">Spanish</Link> */}
+        <Link className="hover-shine hover-grow" href="/#home-contact">
+          Contact
+        </Link>
+        {/* <Link className="hover-shine" href="">Spanish</Link> */}
       </div>
     </header>
   );

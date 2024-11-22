@@ -28,6 +28,7 @@ export default function Home() {
   const skills = skillsJson as ListOfSkills;
   const info = infoJson as Info;
   const [showSkills, setShowSkills] = useState<ListOfSkills>(skills);
+  const [showTimeline, setShowTimeline] = useState(false);
 
   const handleSkillsFilter = (skillTypeId: number) => {
     if (skillTypeId === 0) setShowSkills(skills);
@@ -35,6 +36,10 @@ export default function Home() {
       setShowSkills(
         skills.filter((skill) => skill.skillTypeId === skillTypeId)
       );
+  };
+
+  const toggleTimeline = () => {
+    setShowTimeline(!showTimeline);
   };
 
   return (
@@ -57,7 +62,7 @@ export default function Home() {
 
       <div className={`secondary-section section`}>
         <h2>ABOUT ME</h2>
-        <p className={`${styles.text} scroll-slide-right`}>{info.aboutMe}</p>
+        <p className={`${styles.text} scroll-slide-left`}>{info.aboutMe}</p>
       </div>
 
       <div className="section">
@@ -80,22 +85,44 @@ export default function Home() {
       </div>
 
       <div className="secondary-section full-section">
-        <h2>RESUME</h2>
-        <p className={styles.timelineTag}>Timeline</p>
-        <div className={styles.timeline}>
-          {experiences.toReversed().map((experience, index) => (
-            <div
-              key={experience.id}
-              className={
-                index % 2 === 0
-                  ? "self-right scroll-slide-right"
-                  : "self-left scroll-slide-left"
-              }
-            >
-              <CareerDisplay experience={experience} />
+        <h2 onClick={toggleTimeline}>RESUME</h2>
+        <p
+          className={`${styles.timelineTag} hover-shine`}
+          onClick={toggleTimeline}
+        >
+          Timeline
+        </p>
+        {showTimeline ? (
+          <>
+            <div className={styles.timeline}>
+              {experiences.toReversed().map((experience, index) => (
+                <div
+                  key={experience.id}
+                  className={
+                    index % 2 === 0
+                      ? "self-right scroll-slide-right"
+                      : "self-left scroll-slide-left"
+                  }
+                >
+                  <CareerDisplay experience={experience} />
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+            <h2
+              className="scroll-slide-right hover-shine"
+              onClick={toggleTimeline}
+            >
+              ▽
+            </h2>
+          </>
+        ) : (
+          <h2
+            className="scroll-slide-left hover-shine"
+            onClick={toggleTimeline}
+          >
+            △
+          </h2>
+        )}
       </div>
 
       <div className="section" id="home-contact">

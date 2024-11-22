@@ -120,6 +120,7 @@ a {
   padding: calc(2 * var(--padding-lg)) var(--padding-lg);
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   gap: var(--gap-lg);
 }
@@ -179,8 +180,8 @@ a {
   animation-range: entry 0% cover 20%;
 }
 
-.link-shine a:hover {
-  scale: 105%;
+.hover-shine:hover {
+  width: fit-content;
   background: linear-gradient(
     to right,
     var(--accent-color),
@@ -192,6 +193,11 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-animation 2s linear infinite;
+  cursor: pointer;
+}
+
+.hover-grow:hover {
+  scale: 105%;
 }
 
 @keyframes grow {

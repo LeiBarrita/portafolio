@@ -79,6 +79,25 @@
   text-align: start;
 }
 
+.hoverCardTitle {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.hoverCardTitle:hover {
+  padding-left: 50px;
+}
+
+.hoverExpandedCard {
+  padding-bottom: var(--padding-lg);
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.hoverExpandedCard:hover {
+  padding-bottom: 0;
+}
+
 /* .left h2 {
   align-self: start;
 } */
@@ -112,6 +131,10 @@
     text-align: center;
     align-self: center;
   }
+  .hoverCardTitle:hover {
+    padding-left: 0;
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -128,6 +151,11 @@
   }
   .cardBody p {
     text-align: center;
+  }
+  .hoverCardTitle:hover {
+    padding-left: 0;
+    padding-right: 0;
+    scale: 110%;
   }
 }
 

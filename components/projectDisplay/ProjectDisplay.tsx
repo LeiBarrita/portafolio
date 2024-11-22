@@ -25,7 +25,9 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
     <div className={styles.appContainer}>
       {isExpanded ? (
         <div className={`${styles.expandedCard}`}>
-          <h2 onClick={toggleExpanded}>{project.name}</h2>
+          <h2 className={styles.hoverExpandedCard} onClick={toggleExpanded}>
+            {project.name}
+          </h2>
           {project.paragraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
@@ -50,7 +52,9 @@ const ProjectDisplay = ({ project }: { project: Project }) => {
             alt="Company logo"
           />
           <div className={styles.cardText}>
-            <h2 onClick={toggleExpanded}>{project.name}</h2>
+            <h2 className={`${styles.hoverCardTitle}`} onClick={toggleExpanded}>
+              {project.name}
+            </h2>
             <div className={styles.cardBody}>
               <Image
                 className={styles.bodyLogo}
