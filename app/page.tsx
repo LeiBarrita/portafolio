@@ -87,7 +87,7 @@ export default function Home() {
       <div className="secondary-section full-section appear-slide-right">
         <h2 onClick={toggleTimeline}>RESUME</h2>
         <p
-          className={`${styles.timelineTag} hover-shine`}
+          className={`${styles.timelineTag} hover-grow hover-shine`}
           onClick={toggleTimeline}
         >
           Timeline
@@ -109,7 +109,7 @@ export default function Home() {
               ))}
             </div>
             <h2
-              className="scroll-slide-right hover-shine"
+              className="scroll-slide-right hover-grow hover-shine"
               onClick={toggleTimeline}
             >
               ▽
@@ -117,7 +117,7 @@ export default function Home() {
           </>
         ) : (
           <h2
-            className="scroll-slide-left hover-shine"
+            className="scroll-slide-left hover-grow hover-shine"
             onClick={toggleTimeline}
           >
             △
