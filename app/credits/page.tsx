@@ -17,7 +17,7 @@ export default function Credits() {
 
   return (
     <main className={styles.container}>
-      <h1>Credits</h1>
+      <h1 className="appear-slide-right">Credits</h1>
       <a
         key={selectedAttribution?.id}
         href={selectedAttribution?.link}
@@ -27,7 +27,7 @@ export default function Credits() {
       >
         <h3>{selectedAttribution?.description}</h3>
       </a>
-      <div className={styles.credits}>
+      <div className={`${styles.credits} appear-slide-right`}>
         {attributions.map((attribution) => (
           <Image
             key={attribution.id}

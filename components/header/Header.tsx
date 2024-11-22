@@ -10,8 +10,7 @@ const Header = () => {
       <div className={styles.separation}>
         <Link
           className="hover-shine hover-grow"
-          scroll={false}
-          prefetch={false}
+          replace={true}
           href="/experience"
         >
           Experience

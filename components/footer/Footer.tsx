@@ -7,7 +7,11 @@ const Footer = () => {
       <Link className="hover-shine hover-grow" href="/">
         Home
       </Link>
-      <Link className="hover-shine hover-grow" href="/experience">
+      <Link
+        className="hover-shine hover-grow"
+        replace={true}
+        href="/experience"
+      >
         Experience
       </Link>
       <Link className="hover-shine hover-grow" href="/#home-contact">
