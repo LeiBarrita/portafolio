@@ -15,6 +15,8 @@
   --gap-lg: 50px;
   --gap-md: 30px;
   --gap-sm: 16px;
+
+  --corner-radius: 6px;
 }
 
 ::-webkit-scrollbar {
@@ -160,19 +162,6 @@ a {
 }
 
 /*#region Animations*/
-.skeleton::after {
-  content: "";
-  background-color: var(--tertiary-color);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 104%;
-  height: 104%;
-  z-index: 99;
-  border-radius: 6px;
-  animation: pulse 2s infinite;
-}
 
 .appear-fall-down {
   animation: fall-down 0.3s;
@@ -279,18 +268,6 @@ a {
 @keyframes gradient-animation {
   to {
     background-position: -200%;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    background-color: var(--tertiary-color);
-  }
-  50% {
-    background-color: var(--accent-color);
-  }
-  100% {
-    background-color: var(--tertiary-color);
   }
 }
 
