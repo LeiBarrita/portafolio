@@ -4,17 +4,17 @@ import Image from "next/image";
 import Skeleton from "../skeleton/Skeleton";
 import { useState } from "react";
 
-const ImgBentoGrid = ({ images }: { images: ListOfAppPhotos }) => {
+const MasoryGrid = ({ images }: { images: ListOfAppPhotos }) => {
   return (
     <div className={styles.bentoGrid}>
       {images.map((image) => (
-        <BentoImage key={image.id} image={image} />
+        <MasoryGridImage key={image.id} image={image} />
       ))}
     </div>
   );
 };
 
-const BentoImage = ({ image }: { image: AppPhoto }) => {
+const MasoryGridImage = ({ image }: { image: AppPhoto }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
@@ -25,10 +25,10 @@ const BentoImage = ({ image }: { image: AppPhoto }) => {
         height={100}
         src={image.link}
         alt="Project picture"
-        // onLoadingComplete={() => setIsLoading(false)}
+        onLoadingComplete={() => setIsLoading(false)}
       />
     </Skeleton>
   );
 };
 
-export default ImgBentoGrid;
+export default MasoryGrid;
