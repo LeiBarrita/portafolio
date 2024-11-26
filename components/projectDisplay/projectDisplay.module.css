@@ -153,8 +153,12 @@
 }
 
 @media (max-width: 475px) {
+  .cardBody p {
+    text-align: start;
+  }
   .cardText {
     padding: 0 var(--padding-sm);
+    text-align: start;
   }
   .bodyLogo {
     width: 50%;
@@ -163,5 +167,6 @@
   .expandedCard {
     padding-left: var(--padding-sm);
     padding-right: var(--padding-sm);
+    text-align: start;
   }
 }
