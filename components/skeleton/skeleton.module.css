@@ -1,7 +1,7 @@
 .skeleton {
   position: relative;
   border-radius: var(--corner-radius);
-  overflow: hidden;
+  overflow: clip;
 }
 
 .skeleton::before {

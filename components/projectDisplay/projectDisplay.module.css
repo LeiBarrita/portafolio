@@ -28,23 +28,33 @@
 }
 
 .sideLogo {
-  border-radius: 10px;
+  display: block;
+}
+
+.sideLogo img {
+  border-radius: var(--corner-radius);
   object-fit: cover;
   height: 180px;
   width: 180px;
 }
 
 .bodyLogo {
+  /* object-fit: cover; */
+  display: none;
+  /* width: auto; */
+  /* height: auto; */
+}
+
+.bodyLogo img {
   object-fit: cover;
-  border-radius: 10px;
   height: 150px;
   width: 150px;
-  display: none;
+  border-radius: var(--corner-radius);
 }
 
 .expandedLogo {
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: var(--corner-radius);
   height: 150px;
   width: 150px;
 }
