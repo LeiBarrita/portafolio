@@ -3,7 +3,7 @@ import styles from "./careerDisplay.module.css";
 
 const CareerDisplay = ({ experience }: { experience: CareerEvent }) => {
   return (
-    <div className={styles.experienceContainer}>
+    <div className={`${styles.experienceContainer} appear-fall-down`}>
       <h3 className={styles.date}>
         {experience.startMonth} {experience.startYear}
       </h3>
