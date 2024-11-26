@@ -5,12 +5,16 @@
   column-gap: 20px;
 }
 
+.bentoGridSkeleton {
+  /* margin-bottom: 14px; */
+  margin-bottom: var(--gap-sm);
+}
+
 .bentoGridImage {
   object-fit: cover;
   width: 100%;
   height: auto;
   border-radius: 6px;
-  margin-bottom: 14px;
 }
 
 @media (max-width: 1024px) {

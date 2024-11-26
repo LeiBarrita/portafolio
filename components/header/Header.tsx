@@ -4,21 +4,17 @@ import styles from "./header.module.css";
 const Header = () => {
   return (
     <header className={`${styles.header} ${styles.separation}`}>
-      <Link className="hover-shine hover-grow" href="/">
+      <Link replace className="hover-shine hover-grow" href="/">
         Uziel Barrita
       </Link>
       <div className={styles.separation}>
-        <Link
-          className="hover-shine hover-grow"
-          replace={true}
-          href="/experience"
-        >
+        <Link replace className="hover-shine hover-grow" href="/experience">
           Experience
         </Link>
-        <Link className="hover-shine hover-grow" href="/#home-contact">
+        <Link replace className="hover-shine hover-grow" href="/#home-contact">
           Contact
         </Link>
-        {/* <Link className="hover-shine" href="">Spanish</Link> */}
+        {/* <Link replace className="hover-shine" href="">Spanish</Link> */}
       </div>
     </header>
   );
