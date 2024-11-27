@@ -26,7 +26,7 @@
 
 .tags {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: var(--gap-lg);
 }
 
@@ -35,6 +35,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--gap-md);
+  min-height: 70px;
 }
 
 .timeline {
