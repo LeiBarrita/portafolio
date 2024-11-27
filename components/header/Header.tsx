@@ -8,7 +8,7 @@ const Header = () => {
         Uziel Barrita
       </Link>
       <div className={styles.separation}>
-        <Link className="hover-shine hover-grow" href="/experience">
+        <Link className="hover-shine hover-grow" href="/experience.html">
           Experience
         </Link>
         <Link className="hover-shine hover-grow" href="/#home-contact">
