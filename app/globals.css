@@ -182,14 +182,14 @@ a {
 }
 
 .scroll-slide-left {
-  animation: slide-left linear;
+  animation: slide-left ease-out;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%;
+  animation-range: entry -20% cover 20%;
 }
 .scroll-slide-right {
   animation: slide-right linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 20%;
+  animation-range: entry -20% cover 20%;
 }
 
 .hover-shine:hover {
@@ -237,7 +237,7 @@ a {
 @keyframes slide-left {
   from {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-100px);
   }
   to {
     opacity: 1;
@@ -248,7 +248,7 @@ a {
 @keyframes slide-right {
   from {
     opacity: 0;
-    transform: translateX(30px);
+    transform: translateX(100px);
   }
   to {
     opacity: 1;

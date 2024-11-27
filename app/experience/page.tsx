@@ -27,7 +27,7 @@ export default function Portafolio() {
       {projects.toReversed().map((project) => (
         <div key={project.id}>
           <ProjectDisplay project={project} />
-          <div className={`${styles.primarySection}`} />
+          <div className={`${styles.primarySection} scroll-slide-left`} />
         </div>
       ))}
     </main>
