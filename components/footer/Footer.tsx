@@ -7,13 +7,13 @@ const Footer = () => {
       <Link className="hover-shine hover-grow" href="/">
         Home
       </Link>
-      <Link className="hover-shine hover-grow" href="/experience">
+      <Link className="hover-shine hover-grow" href="/experience.html">
         Experience
       </Link>
       <Link className="hover-shine hover-grow" href="/#home-contact">
         Contact
       </Link>
-      <Link className="hover-shine hover-grow" href="/credits">
+      <Link className="hover-shine hover-grow" href="/credits.html">
         Credits
       </Link>
       {/* <Link  className="hover-shine hover-grow" href="/">Spanish</Link> */}
