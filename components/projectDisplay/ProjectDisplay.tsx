@@ -44,7 +44,7 @@ const DisplayCard = ({
   const [bodyLoading, setBodyLoading] = useState(true);
 
   return (
-    <div className={styles.projectCard}>
+    <div className={`${styles.projectCard} scroll-slide-left`}>
       <Skeleton
         loading={sideLoading}
         className={`${styles.sideLogo} appear-slide-left`}
@@ -103,10 +103,12 @@ const ExpandedCard = ({
         {project.name}
       </h2>
       {project.paragraphs.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
+        <p key={index} className="scroll-slide-left">
+          {paragraph}
+        </p>
       ))}
       {project.images.length > 0 && <ImgMasoryGrid images={project.images} />}
-      <Skeleton loading={isLoading}>
+      <Skeleton loading={isLoading} className="scroll-slide-left">
         <Image
           className={styles.expandedLogo}
           width={100}
