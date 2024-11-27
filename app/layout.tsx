@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Abyssinica_SIL } from "next/font/google";
 import "./globals.css";
-import "./styles.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
