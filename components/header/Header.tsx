@@ -4,17 +4,17 @@ import styles from "./header.module.css";
 const Header = () => {
   return (
     <header className={`${styles.header} ${styles.separation}`}>
-      <Link replace className="hover-shine hover-grow" href="/">
+      <a className="hover-shine hover-grow" href="/">
         Uziel Barrita
-      </Link>
+      </a>
       <div className={styles.separation}>
-        <Link replace className="hover-shine hover-grow" href="/experience">
+        <a className="hover-shine hover-grow" href="/experience">
           Experience
-        </Link>
-        <Link replace className="hover-shine hover-grow" href="/#home-contact">
+        </a>
+        <a className="hover-shine hover-grow" href="/#home-contact">
           Contact
-        </Link>
-        {/* <Link replace className="hover-shine" href="">Spanish</Link> */}
+        </a>
+        {/* <a className="hover-shine" href="">Spanish</a> */}
       </div>
     </header>
   );

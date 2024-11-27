@@ -7,7 +7,7 @@ import Skeleton from "../skeleton/Skeleton";
 const TechIcon = ({ tech }: { tech: Skill }) => {
   const [isLoading, setIsLoading] = useState(true);
   return (
-    <Skeleton loading={isLoading}>
+    <Skeleton loading={isLoading} className="appear-slide-right">
       <div className={styles.iconContainer} data-before-content={tech.name}>
         <Image
           className={styles.icon}

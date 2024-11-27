@@ -1,29 +1,25 @@
-import Link from "next/link";
+import a from "next/link";
 import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
     <footer className={`${styles.footer} secondary-section`}>
-      <Link replace className="hover-shine hover-grow" href="/">
+      <a className="hover-shine hover-grow" href="/">
         Home
-      </Link>
-      <Link replace className="hover-shine hover-grow" href="/experience">
+      </a>
+      <a className="hover-shine hover-grow" href="/experience">
         Experience
-      </Link>
-      <Link replace className="hover-shine hover-grow" href="/#home-contact">
+      </a>
+      <a className="hover-shine hover-grow" href="/#home-contact">
         Contact
-      </Link>
-      <Link replace className="hover-shine hover-grow" href="/credits">
+      </a>
+      <a className="hover-shine hover-grow" href="/credits">
         Credits
-      </Link>
-      {/* <Link replace className="hover-shine hover-grow" href="/">Spanish</Link> */}
-      <Link
-        replace
-        className="hover-shine hover-grow"
-        href="https://g.co/kgs/iiJS65j"
-      >
+      </a>
+      {/* <a  className="hover-shine hover-grow" href="/">Spanish</a> */}
+      <a className="hover-shine hover-grow" href="https://g.co/kgs/iiJS65j">
         Michoacán, México
-      </Link>
+      </a>
     </footer>
   );
 };

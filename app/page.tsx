@@ -31,11 +31,14 @@ export default function Home() {
   const [showTimeline, setShowTimeline] = useState(false);
 
   const handleSkillsFilter = (skillTypeId: number) => {
-    if (skillTypeId === 0) setShowSkills(skills);
-    else
-      setShowSkills(
-        skills.filter((skill) => skill.skillTypeId === skillTypeId)
-      );
+    setShowSkills([]);
+    setTimeout(() => {
+      if (skillTypeId === 0) setShowSkills(skills);
+      else
+        setShowSkills(
+          skills.filter((skill) => skill.skillTypeId === skillTypeId)
+        );
+    }, 100);
   };
 
   const toggleTimeline = () => {
