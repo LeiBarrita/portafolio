@@ -1,10 +1,28 @@
 .tag {
-    /* background-color: var(--tertiary-color); */
-    border-radius: 8px;
-    text-align: center;
+  /* border-radius: 8px; */
+  text-align: center;
+  cursor: pointer;
 }
 
 .tag:hover {
-    cursor: pointer;
-    scale: 110%;
+  scale: 98%;
+  width: fit-content;
+  background: linear-gradient(
+    to right,
+    var(--secondary-color),
+    var(--accent-color),
+    var(--accent-color),
+    var(--secondary-color)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: bg-translate 2s linear infinite;
+}
+
+@keyframes bg-translate {
+  to {
+    background-position: -200%;
+  }
 }
