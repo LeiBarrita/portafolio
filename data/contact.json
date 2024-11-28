@@ -16,21 +16,21 @@
   {
     "id": 3,
     "tag": "Linkedin",
-    "rawLink": "www.linkedin.com/in/uzielbarrita",
+    "rawLink": "uzielbarrita",
     "htmlLink": "https://www.linkedin.com/in/uzielbarrita",
     "icon": "icons/contact/linkedin.png"
   },
   {
     "id": 4,
     "tag": "Github Link 1",
-    "rawLink": "github.com/LeiBarrita",
+    "rawLink": "LeiBarrita",
     "htmlLink": "https://github.com/LeiBarrita",
     "icon": "icons/contact/github.png"
   },
   {
     "id": 5,
     "tag": "Github Link 2",
-    "rawLink": "github.com/LeiBarrita",
+    "rawLink": "LeiWithP",
     "htmlLink": "https://github.com/LeiWithP",
     "icon": "icons/contact/github.png"
   }

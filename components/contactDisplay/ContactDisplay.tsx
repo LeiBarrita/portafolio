@@ -16,10 +16,11 @@ const ContactDisplay = ({
             contactInfo={contact}
             className={`${styles.icon} scroll-slide-right`}
           />
-          <div className={styles.hoverLink}>
+          <h4>{contact.rawLink}</h4>
+          {/* <div className={styles.hoverLink}>
             <ContactIcon contactInfo={contact} />
             <h4 className="scroll-slide-right">{contact.rawLink}</h4>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>
