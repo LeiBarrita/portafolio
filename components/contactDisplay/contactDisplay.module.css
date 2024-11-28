@@ -1,0 +1,111 @@
+.contactList {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: calc(2 * var(--gap-lg));
+}
+
+.contactItem {
+  display: flex;
+  /* gap: var(--gap-lg); */
+  align-items: center;
+  /* background-color: antiquewhite; */
+  justify-content: center;
+}
+
+.hoverLink {
+  /* display: none; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-lg);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  /* transform: translateX(-100%); */
+}
+
+.contactItem:hover .hoverLink {
+  animation: 300ms open-contact ease-out forwards;
+}
+
+.contactItem:hover .icon {
+  animation: select-icon 100ms ease-out forwards;
+}
+
+/* .contactItem:hover {
+  width: 100%;
+  background-color: aliceblue;
+} */
+
+/* .contactItem:hover > .icon {
+  display: none;
+} */
+
+/* .contactItem:hover > .hoverLink {
+  display: flex;
+  align-items: center;
+} */
+
+.contactItem:hover ~ * {
+  animation: hide-icon 100ms ease-out forwards;
+}
+
+.contactItem:has(~ *:hover) {
+  animation: hide-icon 100ms ease-out forwards;
+}
+
+@keyframes open-contact {
+  from {
+    opacity: 0;
+    /* transform: translateX(-100px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateX(0px); */
+  }
+}
+
+@keyframes select-icon {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hide-icon {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+}
+
+@media (max-width: 1280px) {
+  .contactList {
+    gap: calc(1.5 * var(--gap-lg));
+  }
+}
+
+@media (max-width: 768px) {
+  .contactList {
+    gap: var(--gap-lg);
+  }
+}
+
+@media (max-width: 640px) {
+  .contactList {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: var(--gap-sm);
+  }
+}
+
+@media (max-width: 475px) {
+}

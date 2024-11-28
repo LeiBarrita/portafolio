@@ -163,6 +163,10 @@ a {
   text-align: left;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 /*#region Animations*/
 
 .appear-fall-down {

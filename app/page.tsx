@@ -20,6 +20,7 @@ import TechIcon from "@/components/techIcon/TechIcon";
 import { useState } from "react";
 import CareerDisplay from "@/components/careerDisplay/CareerDisplay";
 import ContactIcon from "@/components/contactIcon/ContactIcon";
+import ContactDisplay from "@/components/contactDisplay/ContactDisplay";
 
 export default function Home() {
   const experiences = experiencesJson as ListOfCareerEvents;
@@ -128,13 +129,9 @@ export default function Home() {
         )}
       </div>
 
-      <div className="section appear-slide-right" id="home-contact">
+      <div className="w-100 section appear-slide-right" id="home-contact">
         <h1>CONTACT</h1>
-        <div className={`${styles.contact} scroll-slide-left`}>
-          {contactInfo.map((contact) => (
-            <ContactIcon key={contact.id} contactInfo={contact} />
-          ))}
-        </div>
+        <ContactDisplay contactList={contactInfo} />
       </div>
     </main>
   );
