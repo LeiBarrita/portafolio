@@ -1,5 +1,4 @@
 .contactList {
-  /* background-color: aqua; */
   display: flex;
   width: 100%;
   justify-content: center;
@@ -11,15 +10,12 @@
   display: flex;
   gap: var(--gap-sm);
   align-items: center;
-  /* background-color: antiquewhite; */
   justify-content: center;
 }
 
 .contactItem h4 {
-  /* display: none; */
   max-width: 0;
   overflow: hidden;
-  /* transition: 1s; */
   transition: max-width 1s;
   text-align: start;
 }
@@ -31,10 +27,6 @@
 .contactList:has(> .contactItem:hover) {
   gap: var(--gap-sm);
 }
-
-/* .contactItem:hover .icon {
-  animation: select-icon 100ms ease-out forwards;
-} */
 
 .contactItem:hover h4 {
   max-width: 340px;
