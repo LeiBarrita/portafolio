@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "tag": "Phone",
-    "rawLink": "4433731339",
-    "htmlLink": "tel:4433731339",
-    "icon": "icons/contact/phone.png"
-  },
-  {
-    "id": 2,
     "tag": "Email",
     "rawLink": "leibarrita@gmail.com",
     "htmlLink": "mailto:leibarrita@gmail.com",
     "icon": "icons/contact/email.png"
+  },
+  {
+    "id": 2,
+    "tag": "Phone",
+    "rawLink": "4433731339",
+    "htmlLink": "tel:4433731339",
+    "icon": "icons/contact/phone.png"
   },
   {
     "id": 3,

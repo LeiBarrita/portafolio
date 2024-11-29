@@ -15,72 +15,45 @@
   justify-content: center;
 }
 
-/* .hoverLink {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  gap: var(--gap-lg);
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-} */
-
-/* .contactItem:hover .hoverLink {
-  animation: 300ms open-contact ease-out forwards;
-} */
 .contactItem h4 {
   /* display: none; */
-  width: 0;
+  max-width: 0;
   overflow: hidden;
-  transition: 1s;
+  /* transition: 1s; */
+  transition: max-width 1s;
   text-align: start;
 }
 
+.contactItem:hover {
+  padding: 0 var(--padding-lg);
+}
+
 .contactList:has(> .contactItem:hover) {
-  /* background-color: aliceblue; */
   gap: var(--gap-sm);
 }
 
-.contactItem:hover .icon {
-  /* animation: select-icon 100ms ease-out forwards; */
-}
+/* .contactItem:hover .icon {
+  animation: select-icon 100ms ease-out forwards;
+} */
 
 .contactItem:hover h4 {
-  /* display: none; */
-  width: 340px;
-  /* overflow: hidden; */
+  max-width: 340px;
 }
 
-/* .contactItem:hover {
-  width: 100%;
-  background-color: aliceblue;
-} */
-
-/* .contactItem:hover > .icon {
-  display: none;
-} */
-
-/* .contactItem:hover > .hoverLink {
-  display: flex;
-  align-items: center;
-} */
-
 .contactItem:hover ~ * {
-  animation: hide-icon 100ms ease-out forwards;
+  animation: hide-icon 300ms ease-out forwards;
 }
 
 .contactItem:has(~ *:hover) {
-  animation: hide-icon 100ms ease-out forwards;
+  animation: hide-icon 300ms ease-out forwards;
 }
 
 @keyframes open-contact {
   from {
     opacity: 0;
-    /* transform: translateX(-100px); */
   }
   to {
     opacity: 1;
-    /* transform: translateX(0px); */
   }
 }
 
