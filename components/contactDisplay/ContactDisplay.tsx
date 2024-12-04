@@ -10,7 +10,7 @@ const ContactDisplay = ({
   contactList: ListOfContactInfo;
 }) => {
   return (
-    <div className={`${styles.contactList}`}>
+    <div className={styles.contactList}>
       {contactList.map((contact) => (
         <Contact key={contact.id} contact={contact} />
       ))}

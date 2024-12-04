@@ -103,12 +103,10 @@ const ExpandedCard = ({
         {project.name}
       </h2>
       {project.paragraphs.map((paragraph, index) => (
-        <p key={index} className="scroll-slide-left">
-          {paragraph}
-        </p>
+        <p key={index}>{paragraph}</p>
       ))}
       {project.images.length > 0 && <ImgMasoryGrid images={project.images} />}
-      <Skeleton loading={isLoading} className="scroll-slide-left">
+      <Skeleton loading={isLoading}>
         <Image
           className={styles.expandedLogo}
           width={100}
