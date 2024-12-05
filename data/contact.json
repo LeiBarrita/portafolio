@@ -1,30 +1,37 @@
 [
   {
     "id": 1,
-    "tag": "Phone",
-    "rawLink": "4433731339",
-    "htmlLink": "tel:4433731339",
-    "icon": "icons/contact/phone.png"
-  },
-  {
-    "id": 2,
     "tag": "Email",
     "rawLink": "leibarrita@gmail.com",
     "htmlLink": "mailto:leibarrita@gmail.com",
     "icon": "icons/contact/email.png"
   },
   {
+    "id": 2,
+    "tag": "Phone",
+    "rawLink": "4433731339",
+    "htmlLink": "tel:4433731339",
+    "icon": "icons/contact/phone.png"
+  },
+  {
     "id": 3,
     "tag": "Linkedin",
-    "rawLink": "www.linkedin.com/in/uzielbarrita",
+    "rawLink": "uzielbarrita",
     "htmlLink": "https://www.linkedin.com/in/uzielbarrita",
     "icon": "icons/contact/linkedin.png"
   },
   {
     "id": 4,
-    "tag": "Work Github",
-    "rawLink": "github.com/LeiBarrita",
+    "tag": "Github Link 1",
+    "rawLink": "LeiBarrita",
     "htmlLink": "https://github.com/LeiBarrita",
+    "icon": "icons/contact/github.png"
+  },
+  {
+    "id": 5,
+    "tag": "Github Link 2",
+    "rawLink": "LeiWithP",
+    "htmlLink": "https://github.com/LeiWithP",
     "icon": "icons/contact/github.png"
   }
 ]

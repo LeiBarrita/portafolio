@@ -1,0 +1,93 @@
+.contactList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: calc(2 * var(--gap-lg));
+  transition: 1s;
+}
+
+.contactItem {
+  display: flex;
+  gap: var(--gap-sm);
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.contactItem h4 {
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width 1s;
+  text-align: start;
+}
+
+.contactItem:hover {
+  padding: 0 var(--padding-lg);
+}
+
+.contactList:has(> .contactItem:hover) {
+  gap: var(--gap-sm);
+}
+
+.contactItem:hover h4 {
+  max-width: 340px;
+}
+
+.contactList:hover .contactItem:not(:hover) {
+  opacity: 0.2;
+}
+
+/* .contactItem:hover ~ * {
+  animation: hide-icon 300ms ease-out forwards;
+} */
+
+/* .contactItem:has(~ *:hover) {
+  animation: hide-icon 300ms ease-out forwards;
+} */
+
+/* @keyframes hide-icon {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+} */
+
+@media (max-width: 1280px) {
+  .contactList {
+    gap: calc(1.5 * var(--gap-lg));
+  }
+}
+
+@media (max-width: 1024px) {
+  .contactList {
+    gap: var(--gap-lg);
+  }
+  .contactItem:hover {
+    padding: 0;
+    padding-right: var(--padding-sm);
+  }
+  .contactList:has(> .contactItem:hover) {
+    gap: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactList {
+    flex-direction: column;
+    gap: var(--gap-sm);
+  }
+  .contactList:has(> .contactItem:hover) {
+    gap: var(--gap-sm);
+  }
+}
+
+@media (max-width: 640px) {
+  /* .contactList {
+    gap: var(--gap-sm);
+  } */
+}
+
+@media (max-width: 475px) {
+}
