@@ -36,10 +36,7 @@ const Contact = ({ contact }: { contact: ContactInfo }) => {
       target="_blank"
       className={styles.contactItem}
     >
-      <ContactIcon
-        contactInfo={contact}
-        className={`${styles.icon} scroll-slide-right`}
-      />
+      <ContactIcon contactInfo={contact} className={`${styles.icon}`} />
       <h4>{contact.rawLink}</h4>
     </Link>
   );
