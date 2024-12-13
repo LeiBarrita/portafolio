@@ -186,14 +186,14 @@ a {
 }
 
 .scroll-slide-left {
-  animation: slide-left ease-out;
+  animation: slide-left cubic-bezier(0.85, -0.01, 0.61, 0.95);
   animation-timeline: view();
-  animation-range: entry -20% cover 20%;
+  animation-range: entry -100% cover 20%;
 }
 .scroll-slide-right {
-  animation: slide-right linear;
+  animation: slide-right cubic-bezier(0.85, -0.01, 0.61, 0.95);
   animation-timeline: view();
-  animation-range: entry -20% cover 20%;
+  animation-range: entry -50% cover 20%;
 }
 
 .hover-shine:hover {
