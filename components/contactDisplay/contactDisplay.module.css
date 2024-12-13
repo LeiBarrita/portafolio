@@ -88,6 +88,18 @@
   .contactItem h4 {
     max-width: fit-content;
   }
+  .contactItem:hover {
+    padding: 0;
+  }
+  .contactList:has(> .contactItem:hover) {
+    gap: var(--gap-md);
+  }
+  .contactItem:hover h4 {
+    max-width: fit-content;
+  }
+  .contactList:hover .contactItem:not(:hover) {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 640px) {

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import profileImg from "../public/profile.png";
+import profileImg from "../public/profile.jpg";
 import {
   Info,
   ListOfContactInfo,
